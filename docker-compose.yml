@@ -55,8 +55,6 @@ services:
       - homepage.widget.type=sonarr # specifies type of widget to use 
       - homepage.widget.url=http://sonarr:8989/sonarr # set URL Sonarr widget on the homepage/dashboard linked to Sonarr web interface
       - homepage.widget.key=${SONARR_API_KEY} # set API key for Sonarr widget
-    ports:
-      - "8989:8989"
 
   radarr:
     image: lscr.io/linuxserver/radarr
@@ -84,8 +82,6 @@ services:
       - homepage.widget.type=radarr
       - homepage.widget.url=http://radarr:7878/radarr
       - homepage.widget.key=${RADARR_API_KEY}
-    ports:
-      - "7878:7878"
 
   prowlarr:
     image: lscr.io/linuxserver/prowlarr:latest
@@ -112,8 +108,6 @@ services:
       - homepage.widget.type=prowlarr
       - homepage.widget.url=http://prowlarr:9696/prowlarr
       - homepage.widget.key=${PROWLARR_API_KEY}
-    ports:
-      - "9696:9696"
 
   qbitorrent:
     image: lscr.io/linuxserver/qbittorrent:libtorrentv1
@@ -248,8 +242,6 @@ services:
       - traefik.http.routers.homepage.tls=true
       - traefik.http.routers.homepage.tls.certresolver=myresolver
       - traefik.http.services.homepage.loadbalancer.server.port=3000
-    ports:
-      - "3000:3000"
 
   watchtower:
     image: containrrr/watchtower

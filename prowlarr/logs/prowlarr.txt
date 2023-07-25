@@ -1321,3 +1321,38 @@
 2023-07-25 20:19:28.8|Info|Database|Log database compressed
 2023-07-25 20:19:28.8|Info|Database|Vacuuming Main database
 2023-07-25 20:19:28.8|Info|Database|Main database compressed
+2023-07-25 22:06:52.7|Info|Bootstrap|Starting Prowlarr - /app/prowlarr/bin/Prowlarr - Version 1.6.3.3608
+2023-07-25 22:06:53.8|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-25 22:06:53.9|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-25 22:06:58.4|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-25 22:07:00.2|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-25 22:07:01.7|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-25 22:07:04.7|Info|Microsoft.Hosting.Lifetime|Now listening on: http://[::]:9696
+2023-07-25 22:07:06.8|Info|CommandExecutor|Starting 3 threads for tasks.
+2023-07-25 22:07:12.3|Info|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-07-25 22:07:12.3|Info|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2023-07-25 22:07:12.3|Info|Microsoft.Hosting.Lifetime|Content root path: /app/prowlarr/bin
+2023-07-25 22:08:29.2|Info|Bootstrap|Starting Prowlarr - /app/prowlarr/bin/Prowlarr - Version 1.6.3.3608
+2023-07-25 22:08:30.8|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-25 22:08:30.9|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-25 22:08:34.9|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-25 22:08:36.3|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-25 22:08:37.8|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-25 22:08:41.3|Info|Microsoft.Hosting.Lifetime|Now listening on: http://[::]:9696
+2023-07-25 22:08:43.7|Info|CommandExecutor|Starting 3 threads for tasks.
+2023-07-25 22:08:49.2|Info|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-07-25 22:08:49.2|Info|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2023-07-25 22:08:49.2|Info|Microsoft.Hosting.Lifetime|Content root path: /app/prowlarr/bin
+2023-07-26 00:30:37.9|Info|Microsoft.Hosting.Lifetime|Application is shutting down...
+2023-07-26 00:30:38.2|Info|ConsoleApp|Exiting main.
+2023-07-26 00:30:48.8|Info|Bootstrap|Starting Prowlarr - /app/prowlarr/bin/Prowlarr - Version 1.6.3.3608
+2023-07-26 00:30:49.4|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-26 00:30:49.5|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-26 00:30:51.3|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-26 00:30:52.1|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-26 00:30:53.1|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-26 00:30:54.8|Info|Microsoft.Hosting.Lifetime|Now listening on: http://[::]:9696
+2023-07-26 00:30:55.7|Info|CommandExecutor|Starting 3 threads for tasks.
+2023-07-26 00:30:58.9|Info|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-07-26 00:30:58.9|Info|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2023-07-26 00:30:58.9|Info|Microsoft.Hosting.Lifetime|Content root path: /app/prowlarr/bin

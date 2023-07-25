@@ -1,1 +1,1 @@
-{"StartTimeUtc":"2023-07-24T20:47:21.7028586Z","EndTimeUtc":"2023-07-24T20:47:21.7033674Z","Status":"Completed","Name":"Nettoyer le r\u00E9pertoire des journaux","Key":"CleanLogFiles","Id":"1c8ede62c521bea0bf851344f5b8ca40"}
+{"StartTimeUtc":"2023-07-25T20:47:21.723228Z","EndTimeUtc":"2023-07-25T20:47:21.7293511Z","Status":"Completed","Name":"Nettoyer le r\u00E9pertoire des journaux","Key":"CleanLogFiles","Id":"1c8ede62c521bea0bf851344f5b8ca40"}

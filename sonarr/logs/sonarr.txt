@@ -2316,3 +2316,87 @@
 2023-07-25 21:07:04.5|Warn|FetchAndParseRssService|No available indexers. check your configuration.
 2023-07-25 21:07:04.5|Info|DownloadDecisionMaker|No results found
 2023-07-25 21:07:04.5|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-07-25 21:22:04.8|Info|RssSyncService|Starting RSS Sync
+2023-07-25 21:22:04.8|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2023-07-25 21:22:04.8|Info|DownloadDecisionMaker|No results found
+2023-07-25 21:22:04.8|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-07-25 21:37:05.2|Info|RssSyncService|Starting RSS Sync
+2023-07-25 21:37:05.2|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2023-07-25 21:37:05.2|Info|DownloadDecisionMaker|No results found
+2023-07-25 21:37:05.2|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-07-25 21:48:05.6|Info|HousekeepingService|Running housecleaning tasks
+2023-07-25 21:48:05.6|Info|ImportListSyncService|Starting Import List Sync
+2023-07-25 21:48:05.6|Info|ImportListSyncService|Processing 0 list items
+2023-07-25 21:48:05.6|Info|RecycleBinProvider|Recycle Bin has not been configured, cannot cleanup.
+2023-07-25 21:48:05.6|Info|ImportListSyncService|Import List Sync Completed. Items found: 0, Series added: 0
+2023-07-25 21:48:05.8|Info|Database|Vacuuming Log database
+2023-07-25 21:48:05.8|Info|Database|Log database compressed
+2023-07-25 21:48:05.8|Info|Database|Vacuuming Main database
+2023-07-25 21:48:06.0|Info|Database|Main database compressed
+2023-07-25 21:52:05.7|Info|RssSyncService|Starting RSS Sync
+2023-07-25 21:52:05.7|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2023-07-25 21:52:05.7|Info|DownloadDecisionMaker|No results found
+2023-07-25 21:52:05.7|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-07-25 21:59:36.0|Info|SceneMappingService|Updating Scene mappings
+2023-07-25 22:06:58.2|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr.exe - Version 3.0.10.1567
+2023-07-25 22:07:00.2|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-25 22:07:00.6|Info|Router|Application mode: Interactive
+2023-07-25 22:07:02.4|Info|MigrationLogger|*** Checking database for required migrations data source=/config/sonarr.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-25 22:07:03.4|Info|MigrationLogger|*** Checking database for required migrations data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-25 22:07:04.9|Info|OwinHostController|Listening on the following URLs:
+2023-07-25 22:07:04.9|Info|OwinHostController|  http://*:8989/sonarr/
+2023-07-25 22:07:04.9|Info|OwinHostController|  http://*:8989/
+2023-07-25 22:07:08.7|Info|SonarrBootstrapper|Starting Web Server
+2023-07-25 22:07:47.2|Info|RssSyncService|Starting RSS Sync
+2023-07-25 22:07:47.2|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2023-07-25 22:07:47.2|Info|DownloadDecisionMaker|No results found
+2023-07-25 22:07:47.2|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-07-25 22:08:32.5|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr.exe - Version 3.0.10.1567
+2023-07-25 22:08:35.0|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-25 22:08:35.6|Info|Router|Application mode: Interactive
+2023-07-25 22:08:37.1|Info|MigrationLogger|*** Checking database for required migrations data source=/config/sonarr.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-25 22:08:38.3|Info|MigrationLogger|*** Checking database for required migrations data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-25 22:08:39.8|Info|OwinHostController|Listening on the following URLs:
+2023-07-25 22:08:39.8|Info|OwinHostController|  http://*:8989/sonarr/
+2023-07-25 22:08:39.8|Info|OwinHostController|  http://*:8989/
+2023-07-25 22:08:42.6|Info|SonarrBootstrapper|Starting Web Server
+2023-07-25 22:22:50.1|Info|RssSyncService|Starting RSS Sync
+2023-07-25 22:22:50.1|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2023-07-25 22:22:50.2|Info|DownloadDecisionMaker|No results found
+2023-07-25 22:22:50.2|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-07-25 22:37:50.2|Info|RssSyncService|Starting RSS Sync
+2023-07-25 22:37:50.2|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2023-07-25 22:37:50.2|Info|DownloadDecisionMaker|No results found
+2023-07-25 22:37:50.2|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-07-25 22:52:50.6|Info|RssSyncService|Starting RSS Sync
+2023-07-25 22:52:50.6|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2023-07-25 22:52:50.6|Info|DownloadDecisionMaker|No results found
+2023-07-25 22:52:50.6|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-07-25 23:07:50.8|Info|RssSyncService|Starting RSS Sync
+2023-07-25 23:07:50.9|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2023-07-25 23:07:50.9|Info|DownloadDecisionMaker|No results found
+2023-07-25 23:07:50.9|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-07-25 23:22:51.3|Info|RssSyncService|Starting RSS Sync
+2023-07-25 23:22:51.3|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2023-07-25 23:22:51.3|Info|DownloadDecisionMaker|No results found
+2023-07-25 23:22:51.3|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-07-25 23:37:51.6|Info|RssSyncService|Starting RSS Sync
+2023-07-25 23:37:51.6|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2023-07-25 23:37:51.6|Info|DownloadDecisionMaker|No results found
+2023-07-25 23:37:51.6|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-07-25 23:52:52.0|Info|RssSyncService|Starting RSS Sync
+2023-07-25 23:52:52.0|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2023-07-25 23:52:52.0|Info|DownloadDecisionMaker|No results found
+2023-07-25 23:52:52.0|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-07-26 00:07:52.2|Info|RssSyncService|Starting RSS Sync
+2023-07-26 00:07:52.2|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2023-07-26 00:07:52.2|Info|DownloadDecisionMaker|No results found
+2023-07-26 00:07:52.2|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-07-26 00:22:52.4|Info|RssSyncService|Starting RSS Sync
+2023-07-26 00:22:52.4|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2023-07-26 00:22:52.4|Info|DownloadDecisionMaker|No results found
+2023-07-26 00:22:52.4|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-07-26 00:37:52.5|Info|RssSyncService|Starting RSS Sync
+2023-07-26 00:37:52.5|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2023-07-26 00:37:52.5|Info|DownloadDecisionMaker|No results found
+2023-07-26 00:37:52.5|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0

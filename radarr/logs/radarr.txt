@@ -4276,3 +4276,57 @@
 2023-07-25 20:50:06.5|Warn|FetchAndParseRssService|No available indexers. check your configuration.
 2023-07-25 20:50:06.5|Info|DownloadDecisionMaker|No results found
 2023-07-25 20:50:06.5|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-07-25 21:48:37.7|Info|RecycleBinProvider|Recycle Bin has not been configured, cannot cleanup.
+2023-07-25 21:48:37.9|Info|ImportListSyncService|No auto enabled lists, skipping sync and cleaning
+2023-07-25 21:48:38.1|Info|HousekeepingService|Running housecleaning tasks
+2023-07-25 21:48:38.5|Info|Database|Vacuuming Log database
+2023-07-25 21:48:38.5|Info|Database|Log database compressed
+2023-07-25 21:48:38.5|Info|Database|Vacuuming Main database
+2023-07-25 21:48:38.6|Info|Database|Main database compressed
+2023-07-25 21:50:08.3|Info|RssSyncService|Starting RSS Sync
+2023-07-25 21:50:08.3|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2023-07-25 21:50:08.3|Info|DownloadDecisionMaker|No results found
+2023-07-25 21:50:08.3|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-07-25 22:06:53.7|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 4.6.4.7568
+2023-07-25 22:06:54.8|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-25 22:06:55.0|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-25 22:06:59.8|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-25 22:07:01.3|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-25 22:07:03.2|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-25 22:07:07.8|Info|Microsoft.Hosting.Lifetime|Now listening on: http://[::]:7878
+2023-07-25 22:07:10.6|Info|CommandExecutor|Starting 2 threads for tasks.
+2023-07-25 22:07:11.7|Info|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-07-25 22:07:11.7|Info|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2023-07-25 22:07:11.8|Info|Microsoft.Hosting.Lifetime|Content root path: /app/radarr/bin
+2023-07-25 22:08:28.9|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 4.6.4.7568
+2023-07-25 22:08:30.3|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-25 22:08:30.5|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-25 22:08:34.5|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-25 22:08:36.3|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-25 22:08:38.4|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-25 22:08:42.7|Info|Microsoft.Hosting.Lifetime|Now listening on: http://[::]:7878
+2023-07-25 22:08:45.7|Info|CommandExecutor|Starting 2 threads for tasks.
+2023-07-25 22:08:47.0|Info|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-07-25 22:08:47.1|Info|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2023-07-25 22:08:47.1|Info|Microsoft.Hosting.Lifetime|Content root path: /app/radarr/bin
+2023-07-25 22:50:17.4|Info|RssSyncService|Starting RSS Sync
+2023-07-25 22:50:17.5|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2023-07-25 22:50:17.5|Info|DownloadDecisionMaker|No results found
+2023-07-25 22:50:17.5|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-07-25 23:50:18.7|Info|RssSyncService|Starting RSS Sync
+2023-07-25 23:50:18.7|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2023-07-25 23:50:18.7|Info|DownloadDecisionMaker|No results found
+2023-07-25 23:50:18.7|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-07-26 00:30:37.9|Info|Microsoft.Hosting.Lifetime|Application is shutting down...
+2023-07-26 00:30:38.2|Info|ConsoleApp|Exiting main.
+2023-07-26 00:30:48.8|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 4.6.4.7568
+2023-07-26 00:30:49.3|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-26 00:30:49.4|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-26 00:30:51.3|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-26 00:30:52.2|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-26 00:30:53.3|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-26 00:30:55.7|Info|Microsoft.Hosting.Lifetime|Now listening on: http://[::]:7878
+2023-07-26 00:30:57.7|Info|CommandExecutor|Starting 2 threads for tasks.
+2023-07-26 00:30:58.1|Info|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-07-26 00:30:58.1|Info|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2023-07-26 00:30:58.1|Info|Microsoft.Hosting.Lifetime|Content root path: /app/radarr/bin
