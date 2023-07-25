@@ -1,0 +1,265 @@
+version: "3.9"
+services:
+  traefik:
+    image: traefik:v2.10
+    container_name: traefik
+    restart: always
+    environment: 
+      - CLOUDFLARE_EMAIL=${CLOUDFLARE_EMAIL}
+      - CLOUDFLARE_DNS_API_TOKEN=${CLOUDFLARE_DNS_API_TOKEN}
+      - CLOUDFLARE_ZONE_API_TOKEN=${CLOUDFLARE_ZONE_API_TOKEN}
+      - LETS_ENCRYPT_EMAIL=${LETS_ENCRYPT_EMAIL}
+    command:
+      - --providers.docker=true # enable docker as provider for Traefik
+      - --providers.docker.exposedbydefault=false # dont expose all servies by default
+      - --entrypoints.web.address=:80 # define entrypoint named "web" on port 80
+      - --entrypoints.web-secure.address=:443 # same with "web-secure" on port 443
+      - --entrypoints.web.http.redirections.entryPoint.to=web-secure # redirection rule from port 80 to port 443
+      - --entrypoints.web.http.redirections.entryPoint.scheme=https # ensure redirection is to an HTTPS URL
+      - --entrypoints.web.http.redirections.entrypoint.permanent=true # clients/browsers will remember redirection is permanent
+      - --certificatesresolvers.myresolver.acme.dnschallenge=${DNS_CHALLENGE:-true}
+      - --certificatesresolvers.myresolver.acme.dnschallenge.provider=${DNS_CHALLENGE_PROVIDER:-cloudflare} # Specifies the DNS challenge provider
+      - --certificatesresolvers.myresolver.acme.caserver=${LETS_ENCRYPT_CA_SERVER:-https://acme-v02.api.letsencrypt.org/directory} # LetsEncrypt ACME
+      - --certificatesresolvers.myresolver.acme.email=${LETS_ENCRYPT_EMAIL} # email for letsencrypt notifications
+      - --certificatesresolvers.myresolver.acme.storage=/letsencrypt/acme.json # path for letsencrypt certificate data
+    ports:
+      - "80:80" # http port
+      - "443:443" # https port
+    volumes:
+      - ./letsencrypt:/letsencrypt # host_dir:container_dir -> persist SSL certificates
+      - /var/run/docker.sock:/var/run/docker.sock
+
+  sonarr:
+    image: lscr.io/linuxserver/sonarr
+    container_name: sonarr
+    environment:
+      - PUID=${USER_ID}
+      - PGID=${GROUP_ID}
+      - TZ=${TIMEZONE}
+    volumes:
+      - ./sonarr:/config
+      - ${DATA_ROOT}:/data
+    restart: always
+    labels: 
+      - traefik.enable=true # enable traffic routing by traefik container_name
+      - traefik.http.routers.sonarr.rule=(Host(`${HOSTNAME}`) && PathPrefix(`/sonarr`)) # Redirect route to the Sonarr service
+      - traefik.http.routers.sonarr.tls=true # Enable TLS(SSL) ensuring HTTPS connection
+      - traefik.http.routers.sonarr.tls.certresolver=myresolver # Specify that `myresolver` = certificate resolver
+      - traefik.http.services.sonarr.loadbalancer.server.port=8989 # Port for Sonarr service, Traefik will forward request to port
+      - homepage.group=Media
+      - homepage.name=Sonarr # set display name of Sonarr service on homepage/dashboard
+      - homepage.icon=sonarr.png # set image for Sonarr service
+      - homepage.href=/sonarr # set URL path where Sonarr is accessible on homepage/dashboard
+      - homepage.description=Series management
+      - homepage.weight=0 # set the priority of appearance on the homepage/dashboard. 0 = First
+      - homepage.widget.type=sonarr # specifies type of widget to use 
+      - homepage.widget.url=http://sonarr:8989/sonarr # set URL Sonarr widget on the homepage/dashboard linked to Sonarr web interface
+      - homepage.widget.key=${SONARR_API_KEY} # set API key for Sonarr widget
+    ports:
+      - "8989:8989"
+
+  radarr:
+    image: lscr.io/linuxserver/radarr
+    container_name: radarr
+    restart: always
+    environment:
+      - PUID=${USER_ID}
+      - PGID=${GROUP_ID}
+      - TZ=${TIMEZONE}
+    volumes:
+      - ./radarr:/config
+      - ${DATA_ROOT}:/data
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.radarr.rule=(Host(`${HOSTNAME}`) && PathPrefix(`/radarr`))
+      - traefik.http.routers.radarr.tls=true
+      - traefik.http.routers.radarr.tls.certresolver=myresolver
+      - traefik.http.services.radarr.loadbalancer.server.port=7878
+      - homepage.group=Media
+      - homepage.name=Radarr
+      - homepage.icon=radarr.png
+      - homepage.href=/radarr
+      - homepage.description=Movies management
+      - homepage.weight=1
+      - homepage.widget.type=radarr
+      - homepage.widget.url=http://radarr:7878/radarr
+      - homepage.widget.key=${RADARR_API_KEY}
+    ports:
+      - "7878:7878"
+
+  prowlarr:
+    image: lscr.io/linuxserver/prowlarr:latest
+    container_name: prowlarr
+    restart: always
+    environment:
+      - PUID=${USER_ID}
+      - PGID=${GROUP_ID}
+      - TZ=${TIMEZONE}
+    volumes:
+      - ./prowlarr:/config
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.prowlarr.rule=(Host(`${HOSTNAME}`) && PathPrefix(`/prowlarr`))
+      - traefik.http.routers.prowlarr.tls=true
+      - traefik.http.routers.prowlarr.tls.certresolver=myresolver
+      - traefik.http.services.prowlarr.loadbalancer.server.port=9696
+      - homepage.group=Download
+      - homepage.name=Prowlarr
+      - homepage.icon=prowlarr.png
+      - homepage.href=/prowlarr
+      - homepage.description=Indexers management
+      - homepage.weight=4
+      - homepage.widget.type=prowlarr
+      - homepage.widget.url=http://prowlarr:9696/prowlarr
+      - homepage.widget.key=${PROWLARR_API_KEY}
+    ports:
+      - "9696:9696"
+
+  qbitorrent:
+    image: lscr.io/linuxserver/qbittorrent:libtorrentv1
+    container_name: qbittorrent
+    restart: always
+    environment:
+      - PUID=${USER_ID}
+      - PGID=${GROUP_ID}
+      - TZ=${TIMEZONE}
+      - WEBUI_PORT=8080
+    volumes:
+      - ./qbittorrent:/config
+      - ${DOWNLOAD_ROOT}:/data/torrents
+    network_mode: "service:vpn" # connect the torrent container toe same network as vpn
+    depends_on:
+      vpn:
+        condition: service_healthy # container torrent will start only if vpn service is healthy
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.qbittorrent.rule=(Host(`${HOSTNAME}`) && PathPrefix(`/qbittorrent`))
+      - traefik.http.routers.qbittorrent.tls=true
+      - traefik.http.routers.qbittorrent.tls.certresolver=myresolver
+      - traefik.http.services.qbittorrent.loadbalancer.server.port=8080
+      - traefik.http.routers.qbittorrent.middlewares=qbittorrent-strip-slash,qbittorrent-stripprefix
+      # https://github.com/qbittorrent/qBittorrent/issues/5693#issuecomment-552146296
+      - traefik.http.middlewares.qbittorrent-stripprefix.stripPrefix.prefixes=/qbittorrent
+      # https://community.traefik.io/t/middleware-to-add-the-if-needed/1895/19
+      - traefik.http.middlewares.qbittorrent-strip-slash.redirectregex.regex=(^.*\/qbittorrent$$)
+      - traefik.http.middlewares.qbittorrent-strip-slash.redirectregex.replacement=$$1/
+      - traefik.http.middlewares.qbittorrent-strip-slash.redirectregex.permanent=false
+      #- com.centurylinklabs.watchtower.depends-on=/vpn
+      - homepage.group=Download
+      - homepage.name=qBittorrent
+      - homepage.icon=qbittorrent.png
+      - homepage.href=/qbittorrent
+      - homepage.description=Bittorrent client
+      - homepage.weight=5
+      - homepage.widget.type=qbittorrent
+      - homepage.widget.url=http://vpn:8080
+      - homepage.widget.username=admin
+      - homepage.widget.password=adminadmin
+
+  vpn:
+    image: thrnz/docker-wireguard-pia # https://github.com/thrnz/docker-wireguard-pia/tree/master
+    container_name: vpn
+    volumes:
+      - ./pia:/pia
+      - ./pia-shared:/pia-shared
+    cap_add:
+      - NET_ADMIN # confer network capability : set firewall rules, enable VPN connections, etc
+      - SYS_MODULE # permission to load and unload kernel modules, allow kernel interaction and enable WireGuard module
+    environment:
+      - LOC=${PIA_LOCATION}
+      - USER=${PIA_USER}
+      - PASS=${PIA_PASS}
+      - LOCAL_NETWORK=${PIA_LOCAL_NETWORK}
+      - PORT_FORWARDING=1
+      - PORT_PERSIST=1
+      - PORT_SCRIPT=/pia-shared/portupdate-qbittorrent.sh
+      - EXIT_ON_FATAL=1
+    sysctls:
+      - net.ipv4.conf.all.src_valid_mark=1
+      - net.ipv6.conf.default.disable_ipv6=1 # disabling ipv6
+      - net.ipv6.conf.all.disable_ipv6=1
+      - net.ipv6.conf.lo.disable_ipv6=1
+    healthcheck:
+      test: ping -c 1 www.google.com || exit 1
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    restart: always
+    labels:
+      # network mode is not supported: https://github.com/containrrr/watchtower/issues/1286#issuecomment-1214291660
+      - com.centurylinklabs.watchtower.enable=false
+
+  jellyfin:
+    image: lscr.io/linuxserver/jellyfin
+    container_name: jellyfin
+    environment:
+      - PUID=${USER_ID}
+      - PGID=${GROUP_ID}
+      - TZ=${TIMEZONE}
+      - JELLYFIN_PublishedServerUrl=${HOSTNAME}/jellyfin
+    volumes:
+      - ./jellyfin:/config
+      - ${DATA_ROOT}:/data
+    ports:
+      - "7359:7359/udp"
+      - "1900:1900/udp"
+      - "8096:8096"
+    devices:
+      - /dev/dri/renderD128:/dev/dri/renderD128
+      - /dev/dri/card0:/dev/dri/card0
+    restart: unless-stopped
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.jellyfin.rule=(Host(`${HOSTNAME}`) && PathPrefix(`/jellyfin`))
+      - traefik.http.routers.jellyfin.tls=true
+      - traefik.http.routers.jellyfin.tls.certresolver=myresolver
+      - traefik.http.services.jellyfin.loadbalancer.server.port=8096
+      - homepage.group=Media
+      - homepage.name=Jellyfin
+      - homepage.icon=jellyfin.png
+      - homepage.href=/jellyfin
+      - homepage.description=Media server
+      - homepage.weight=3
+      - homepage.widget.type=jellyfin
+      - homepage.widget.url=http://jellyfin:8096/jellyfin
+      - homepage.widget.key=${JELLYFIN_API_KEY}
+
+  homepage:
+    image: ghcr.io/benphelps/homepage:latest
+    container_name: homepage
+    environment:
+      - HOMEPAGE_VAR_TITLE=${HOMEPAGE_VAR_TITLE}
+      - HOMEPAGE_VAR_SEARCH_PROVIDER=${HOMEPAGE_VAR_SEARCH_PROVIDER}
+      - HOMEPAGE_VAR_HEADER_STYLE=${HOMEPAGE_VAR_HEADER_STYLE}
+      - HOMEPAGE_VAR_WEATHER_CITY=${HOMEPAGE_VAR_WEATHER_CITY}
+      - HOMEPAGE_VAR_WEATHER_LAT=${HOMEPAGE_VAR_WEATHER_LAT}
+      - HOMEPAGE_VAR_WEATHER_LONG=${HOMEPAGE_VAR_WEATHER_LONG}
+      - HOMEPAGE_VAR_WEATHER_TIME=${TIMEZONE}
+      - HOMEPAGE_VAR_WEATHER_UNIT=${HOMEPAGE_VAR_WEATHER_UNIT}
+    volumes:
+      - ./homepage:/app/config
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+      - ${DATA_ROOT}:/data
+    restart: always
+    command: [sh, -c, "cp -n /app/config/tpl/*.yaml /app/config && node server.js"]
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.homepage.rule=(Host(`${HOSTNAME}`) && PathPrefix(`/`))
+      - traefik.http.routers.homepage.tls=true
+      - traefik.http.routers.homepage.tls.certresolver=myresolver
+      - traefik.http.services.homepage.loadbalancer.server.port=3000
+    ports:
+      - "3000:3000"
+
+  watchtower:
+    image: containrrr/watchtower
+    container_name: watchtower
+    restart: always
+    environment:
+      - WATCHTOWER_CLEANUP=true
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+
+networks:
+  default:
+    name: docker-compose-nas

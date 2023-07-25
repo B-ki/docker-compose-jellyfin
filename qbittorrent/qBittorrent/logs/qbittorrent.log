@@ -1,0 +1,194 @@
+(N) 2023-07-22T21:47:12 - qBittorrent v4.5.4 started
+(N) 2023-07-22T21:47:12 - Using config directory: /config/qBittorrent
+(N) 2023-07-22T21:47:12 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2023-07-22T21:47:12 - Peer ID: "-qB4540-"
+(I) 2023-07-22T21:47:12 - HTTP User-Agent: "qBittorrent/4.5.4"
+(I) 2023-07-22T21:47:12 - Distributed Hash Table (DHT) support: ON
+(I) 2023-07-22T21:47:12 - Local Peer Discovery support: ON
+(I) 2023-07-22T21:47:12 - Peer Exchange (PeX) support: ON
+(I) 2023-07-22T21:47:12 - Anonymous mode: OFF
+(I) 2023-07-22T21:47:12 - Encryption support: ON
+(I) 2023-07-22T21:47:12 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2023-07-22T21:47:12 - Successfully listening on IP. IP: "127.0.0.1". Port: "UDP/6881"
+(I) 2023-07-22T21:47:12 - Successfully listening on IP. IP: "10.23.204.33". Port: "TCP/6881"
+(I) 2023-07-22T21:47:12 - Successfully listening on IP. IP: "10.23.204.33". Port: "UDP/6881"
+(I) 2023-07-22T21:47:12 - Successfully listening on IP. IP: "172.19.0.8". Port: "TCP/6881"
+(I) 2023-07-22T21:47:12 - Successfully listening on IP. IP: "172.19.0.8". Port: "UDP/6881"
+(W) 2023-07-22T21:47:12 - Couldn't load IP geolocation database. Reason: No such file or directory
+(N) 2023-07-22T21:47:12 - Using built-in Web UI.
+(W) 2023-07-22T21:47:12 - Couldn't load Web UI translation for selected locale (C).
+(N) 2023-07-22T21:47:12 - Web UI: Now listening on IP: *, port: 8080
+(I) 2023-07-22T21:47:12 - Detected external IP. IP: "156.146.63.158"
+(I) 2023-07-22T21:47:13 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Sat Jul 1 10:07:53 2023.
+(I) 2023-07-22T21:47:13 - Successfully updated IP geolocation database.
+(N) 2023-07-22T21:47:19 - WebAPI login success. IP: ::ffff:127.0.0.1
+(N) 2023-07-22T21:47:19 - Web UI: Now listening on IP: *, port: 8080
+(N) 2023-07-22T21:47:19 - Trying to listen on the following list of IP addresses: "0.0.0.0:32499,[::]:32499"
+(I) 2023-07-22T21:47:19 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/32499"
+(I) 2023-07-22T21:47:19 - Successfully listening on IP. IP: "127.0.0.1". Port: "UDP/32499"
+(I) 2023-07-22T21:47:19 - Successfully listening on IP. IP: "10.23.204.33". Port: "TCP/32499"
+(I) 2023-07-22T21:47:19 - Successfully listening on IP. IP: "10.23.204.33". Port: "UDP/32499"
+(I) 2023-07-22T21:47:19 - Successfully listening on IP. IP: "172.19.0.8". Port: "TCP/32499"
+(I) 2023-07-22T21:47:19 - Successfully listening on IP. IP: "172.19.0.8". Port: "UDP/32499"
+(N) 2023-07-23T18:54:43 - qBittorrent v4.5.4 started
+(N) 2023-07-23T18:54:43 - Using config directory: /config/qBittorrent
+(N) 2023-07-23T18:54:43 - Trying to listen on the following list of IP addresses: "0.0.0.0:32499,[::]:32499"
+(I) 2023-07-23T18:54:43 - Peer ID: "-qB4540-"
+(I) 2023-07-23T18:54:43 - HTTP User-Agent: "qBittorrent/4.5.4"
+(I) 2023-07-23T18:54:43 - Distributed Hash Table (DHT) support: ON
+(I) 2023-07-23T18:54:43 - Local Peer Discovery support: ON
+(I) 2023-07-23T18:54:43 - Peer Exchange (PeX) support: ON
+(I) 2023-07-23T18:54:43 - Anonymous mode: OFF
+(I) 2023-07-23T18:54:43 - Encryption support: ON
+(I) 2023-07-23T18:54:43 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/32499"
+(I) 2023-07-23T18:54:43 - Successfully listening on IP. IP: "127.0.0.1". Port: "UDP/32499"
+(I) 2023-07-23T18:54:43 - Successfully listening on IP. IP: "10.25.243.79". Port: "TCP/32499"
+(I) 2023-07-23T18:54:43 - Successfully listening on IP. IP: "10.25.243.79". Port: "UDP/32499"
+(I) 2023-07-23T18:54:43 - Successfully listening on IP. IP: "172.19.0.8". Port: "TCP/32499"
+(I) 2023-07-23T18:54:43 - Successfully listening on IP. IP: "172.19.0.8". Port: "UDP/32499"
+(I) 2023-07-23T18:54:43 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Sat Jul 1 10:07:53 2023.
+(N) 2023-07-23T18:54:43 - Using built-in Web UI.
+(W) 2023-07-23T18:54:43 - Couldn't load Web UI translation for selected locale (C).
+(N) 2023-07-23T18:54:43 - Web UI: Now listening on IP: *, port: 8080
+(I) 2023-07-23T18:54:43 - Detected external IP. IP: "191.101.31.65"
+(N) 2023-07-23T18:54:49 - WebAPI login success. IP: ::ffff:127.0.0.1
+(N) 2023-07-23T18:54:49 - Web UI: Now listening on IP: *, port: 8080
+(N) 2023-07-23T19:06:29 - qBittorrent termination initiated
+(I) 2023-07-23T19:06:29 - UPnP/NAT-PMP support: OFF
+(N) 2023-07-23T19:06:29 - qBittorrent is now ready to exit
+(N) 2023-07-23T19:06:37 - qBittorrent v4.5.4 started
+(N) 2023-07-23T19:06:37 - Using config directory: /config/qBittorrent
+(N) 2023-07-23T19:06:37 - Trying to listen on the following list of IP addresses: "0.0.0.0:32499,[::]:32499"
+(I) 2023-07-23T19:06:38 - Peer ID: "-qB4540-"
+(I) 2023-07-23T19:06:38 - HTTP User-Agent: "qBittorrent/4.5.4"
+(I) 2023-07-23T19:06:38 - Distributed Hash Table (DHT) support: ON
+(I) 2023-07-23T19:06:38 - Local Peer Discovery support: ON
+(I) 2023-07-23T19:06:38 - Peer Exchange (PeX) support: ON
+(I) 2023-07-23T19:06:38 - Anonymous mode: OFF
+(I) 2023-07-23T19:06:38 - Encryption support: ON
+(I) 2023-07-23T19:06:38 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/32499"
+(I) 2023-07-23T19:06:38 - Successfully listening on IP. IP: "127.0.0.1". Port: "UDP/32499"
+(I) 2023-07-23T19:06:38 - Successfully listening on IP. IP: "10.25.243.79". Port: "TCP/32499"
+(I) 2023-07-23T19:06:38 - Successfully listening on IP. IP: "10.25.243.79". Port: "UDP/32499"
+(I) 2023-07-23T19:06:38 - Successfully listening on IP. IP: "172.19.0.8". Port: "TCP/32499"
+(I) 2023-07-23T19:06:38 - Successfully listening on IP. IP: "172.19.0.8". Port: "UDP/32499"
+(I) 2023-07-23T19:06:38 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Sat Jul 1 10:07:53 2023.
+(N) 2023-07-23T19:06:38 - Using built-in Web UI.
+(W) 2023-07-23T19:06:38 - Couldn't load Web UI translation for selected locale (C).
+(N) 2023-07-23T19:06:38 - Web UI: Now listening on IP: *, port: 8080
+(I) 2023-07-23T19:06:40 - Detected external IP. IP: "191.101.31.65"
+(N) 2023-07-23T20:10:59 - qBittorrent v4.5.4 started
+(N) 2023-07-23T20:10:59 - Using config directory: /config/qBittorrent
+(N) 2023-07-23T20:10:59 - Trying to listen on the following list of IP addresses: "0.0.0.0:32499,[::]:32499"
+(I) 2023-07-23T20:10:59 - Peer ID: "-qB4540-"
+(I) 2023-07-23T20:10:59 - HTTP User-Agent: "qBittorrent/4.5.4"
+(I) 2023-07-23T20:10:59 - Distributed Hash Table (DHT) support: ON
+(I) 2023-07-23T20:10:59 - Local Peer Discovery support: ON
+(I) 2023-07-23T20:10:59 - Peer Exchange (PeX) support: ON
+(I) 2023-07-23T20:10:59 - Anonymous mode: OFF
+(I) 2023-07-23T20:10:59 - Encryption support: ON
+(I) 2023-07-23T20:10:59 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/32499"
+(I) 2023-07-23T20:10:59 - Successfully listening on IP. IP: "127.0.0.1". Port: "UDP/32499"
+(I) 2023-07-23T20:10:59 - Successfully listening on IP. IP: "10.24.243.79". Port: "TCP/32499"
+(I) 2023-07-23T20:10:59 - Successfully listening on IP. IP: "10.24.243.79". Port: "UDP/32499"
+(I) 2023-07-23T20:10:59 - Successfully listening on IP. IP: "172.19.0.3". Port: "TCP/32499"
+(I) 2023-07-23T20:10:59 - Successfully listening on IP. IP: "172.19.0.3". Port: "UDP/32499"
+(I) 2023-07-23T20:10:59 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Sat Jul 1 10:07:53 2023.
+(N) 2023-07-23T20:10:59 - Using built-in Web UI.
+(W) 2023-07-23T20:10:59 - Couldn't load Web UI translation for selected locale (C).
+(N) 2023-07-23T20:10:59 - Web UI: Now listening on IP: *, port: 8080
+(I) 2023-07-23T20:10:59 - Detected external IP. IP: "191.101.31.33"
+(N) 2023-07-23T20:11:05 - WebAPI login success. IP: ::ffff:127.0.0.1
+(N) 2023-07-23T20:11:05 - Web UI: Now listening on IP: *, port: 8080
+(N) 2023-07-23T20:12:57 - qBittorrent v4.5.4 started
+(N) 2023-07-23T20:12:57 - Using config directory: /config/qBittorrent
+(N) 2023-07-23T20:12:57 - Trying to listen on the following list of IP addresses: "0.0.0.0:32499,[::]:32499"
+(I) 2023-07-23T20:12:57 - Peer ID: "-qB4540-"
+(I) 2023-07-23T20:12:57 - HTTP User-Agent: "qBittorrent/4.5.4"
+(I) 2023-07-23T20:12:57 - Distributed Hash Table (DHT) support: ON
+(I) 2023-07-23T20:12:57 - Local Peer Discovery support: ON
+(I) 2023-07-23T20:12:57 - Peer Exchange (PeX) support: ON
+(I) 2023-07-23T20:12:57 - Anonymous mode: OFF
+(I) 2023-07-23T20:12:57 - Encryption support: ON
+(I) 2023-07-23T20:12:57 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Sat Jul 1 10:07:53 2023.
+(N) 2023-07-23T20:12:57 - Using built-in Web UI.
+(W) 2023-07-23T20:12:57 - Couldn't load Web UI translation for selected locale (C).
+(N) 2023-07-23T20:12:57 - Web UI: Now listening on IP: *, port: 8080
+(I) 2023-07-23T20:12:57 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/32499"
+(I) 2023-07-23T20:12:57 - Successfully listening on IP. IP: "127.0.0.1". Port: "UDP/32499"
+(I) 2023-07-23T20:12:57 - Successfully listening on IP. IP: "10.18.206.66". Port: "TCP/32499"
+(I) 2023-07-23T20:12:57 - Successfully listening on IP. IP: "10.18.206.66". Port: "UDP/32499"
+(I) 2023-07-23T20:12:57 - Successfully listening on IP. IP: "172.19.0.7". Port: "TCP/32499"
+(I) 2023-07-23T20:12:57 - Successfully listening on IP. IP: "172.19.0.7". Port: "UDP/32499"
+(I) 2023-07-23T20:12:57 - Detected external IP. IP: "156.146.63.153"
+(N) 2023-07-23T20:13:03 - WebAPI login success. IP: ::ffff:127.0.0.1
+(N) 2023-07-23T20:13:03 - Web UI: Now listening on IP: *, port: 8080
+(N) 2023-07-23T20:14:48 - qBittorrent v4.5.4 started
+(N) 2023-07-23T20:14:48 - Using config directory: /config/qBittorrent
+(N) 2023-07-23T20:14:48 - Trying to listen on the following list of IP addresses: "0.0.0.0:32499,[::]:32499"
+(I) 2023-07-23T20:14:48 - Peer ID: "-qB4540-"
+(I) 2023-07-23T20:14:48 - HTTP User-Agent: "qBittorrent/4.5.4"
+(I) 2023-07-23T20:14:48 - Distributed Hash Table (DHT) support: ON
+(I) 2023-07-23T20:14:48 - Local Peer Discovery support: ON
+(I) 2023-07-23T20:14:48 - Peer Exchange (PeX) support: ON
+(I) 2023-07-23T20:14:48 - Anonymous mode: OFF
+(I) 2023-07-23T20:14:48 - Encryption support: ON
+(I) 2023-07-23T20:14:48 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/32499"
+(I) 2023-07-23T20:14:48 - Successfully listening on IP. IP: "127.0.0.1". Port: "UDP/32499"
+(I) 2023-07-23T20:14:48 - Successfully listening on IP. IP: "10.4.193.248". Port: "TCP/32499"
+(I) 2023-07-23T20:14:48 - Successfully listening on IP. IP: "10.4.193.248". Port: "UDP/32499"
+(I) 2023-07-23T20:14:48 - Successfully listening on IP. IP: "172.19.0.5". Port: "TCP/32499"
+(I) 2023-07-23T20:14:48 - Successfully listening on IP. IP: "172.19.0.5". Port: "UDP/32499"
+(I) 2023-07-23T20:14:48 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Sat Jul 1 10:07:53 2023.
+(N) 2023-07-23T20:14:48 - Using built-in Web UI.
+(W) 2023-07-23T20:14:48 - Couldn't load Web UI translation for selected locale (C).
+(N) 2023-07-23T20:14:48 - Web UI: Now listening on IP: *, port: 8080
+(I) 2023-07-23T20:14:49 - Detected external IP. IP: "156.146.63.139"
+(N) 2023-07-23T20:14:53 - WebAPI login success. IP: ::ffff:127.0.0.1
+(N) 2023-07-23T20:14:53 - Web UI: Now listening on IP: *, port: 8080
+(N) 2023-07-23T20:19:04 - qBittorrent v4.5.4 started
+(N) 2023-07-23T20:19:04 - Using config directory: /config/qBittorrent
+(N) 2023-07-23T20:19:04 - Trying to listen on the following list of IP addresses: "0.0.0.0:32499,[::]:32499"
+(I) 2023-07-23T20:19:04 - Peer ID: "-qB4540-"
+(I) 2023-07-23T20:19:04 - HTTP User-Agent: "qBittorrent/4.5.4"
+(I) 2023-07-23T20:19:04 - Distributed Hash Table (DHT) support: ON
+(I) 2023-07-23T20:19:04 - Local Peer Discovery support: ON
+(I) 2023-07-23T20:19:04 - Peer Exchange (PeX) support: ON
+(I) 2023-07-23T20:19:04 - Anonymous mode: OFF
+(I) 2023-07-23T20:19:04 - Encryption support: ON
+(I) 2023-07-23T20:19:04 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/32499"
+(I) 2023-07-23T20:19:04 - Successfully listening on IP. IP: "127.0.0.1". Port: "UDP/32499"
+(I) 2023-07-23T20:19:04 - Successfully listening on IP. IP: "10.26.147.241". Port: "TCP/32499"
+(I) 2023-07-23T20:19:04 - Successfully listening on IP. IP: "10.26.147.241". Port: "UDP/32499"
+(I) 2023-07-23T20:19:04 - Successfully listening on IP. IP: "172.19.0.3". Port: "TCP/32499"
+(I) 2023-07-23T20:19:04 - Successfully listening on IP. IP: "172.19.0.3". Port: "UDP/32499"
+(I) 2023-07-23T20:19:04 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Sat Jul 1 10:07:53 2023.
+(N) 2023-07-23T20:19:04 - Using built-in Web UI.
+(W) 2023-07-23T20:19:04 - Couldn't load Web UI translation for selected locale (C).
+(N) 2023-07-23T20:19:04 - Web UI: Now listening on IP: *, port: 8080
+(I) 2023-07-23T20:19:04 - Detected external IP. IP: "156.146.63.161"
+(N) 2023-07-23T20:19:09 - WebAPI login success. IP: ::ffff:127.0.0.1
+(N) 2023-07-23T20:19:09 - Web UI: Now listening on IP: *, port: 8080
+(N) 2023-07-25T15:26:33 - qBittorrent v4.5.4 started
+(N) 2023-07-25T15:26:33 - Using config directory: /config/qBittorrent
+(N) 2023-07-25T15:26:34 - Trying to listen on the following list of IP addresses: "0.0.0.0:32499,[::]:32499"
+(I) 2023-07-25T15:26:34 - Peer ID: "-qB4540-"
+(I) 2023-07-25T15:26:34 - HTTP User-Agent: "qBittorrent/4.5.4"
+(I) 2023-07-25T15:26:34 - Distributed Hash Table (DHT) support: ON
+(I) 2023-07-25T15:26:34 - Local Peer Discovery support: ON
+(I) 2023-07-25T15:26:34 - Peer Exchange (PeX) support: ON
+(I) 2023-07-25T15:26:34 - Anonymous mode: OFF
+(I) 2023-07-25T15:26:34 - Encryption support: ON
+(I) 2023-07-25T15:26:35 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/32499"
+(I) 2023-07-25T15:26:35 - Successfully listening on IP. IP: "127.0.0.1". Port: "UDP/32499"
+(I) 2023-07-25T15:26:35 - Successfully listening on IP. IP: "10.20.228.189". Port: "TCP/32499"
+(I) 2023-07-25T15:26:35 - Successfully listening on IP. IP: "10.20.228.189". Port: "UDP/32499"
+(I) 2023-07-25T15:26:35 - Successfully listening on IP. IP: "172.19.0.5". Port: "TCP/32499"
+(I) 2023-07-25T15:26:35 - Successfully listening on IP. IP: "172.19.0.5". Port: "UDP/32499"
+(I) 2023-07-25T15:26:35 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Sat Jul 1 10:07:53 2023.
+(N) 2023-07-25T15:26:35 - Using built-in Web UI.
+(W) 2023-07-25T15:26:35 - Couldn't load Web UI translation for selected locale (C).
+(N) 2023-07-25T15:26:35 - Web UI: Now listening on IP: *, port: 8080
+(I) 2023-07-25T15:26:35 - Detected external IP. IP: "191.101.31.29"
+(N) 2023-07-25T15:26:43 - WebAPI login success. IP: ::ffff:127.0.0.1
+(N) 2023-07-25T15:26:43 - Web UI: Now listening on IP: *, port: 8080
