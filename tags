@@ -16,16 +16,21 @@
 632d0f4a-e7d2-4648-96cb-590493c8743b	prowlarr/asp/key-632d0f4a-e7d2-4648-96cb-590493c8743b.xml	/^<key id="632d0f4a-e7d2-4648-96cb-590493c8743b" version="1">$/;"	i
 Accepted	qbittorrent/qBittorrent/qBittorrent.conf	/^Accepted=true$/;"	k	section:LegalNotice
 Address	qbittorrent/qBittorrent/qBittorrent.conf	/^WebUI\\Address=*$/;"	k	section:Preferences
+Address	wg0.conf	/^Address = 10.24.254.73$/;"	k	section:Interface
 AllStats	qbittorrent/qBittorrent/qBittorrent-data.conf	/^AllStats=@Variant(\\0\\0\\0\\x1c\\0\\0\\0\\x2\\0\\0\\0\\x12\\0\\x41\\0l\\0l\\0t\\0i\\0m\\0\\x65\\/;"	k	section:Stats
+AllowedIPs	wg0.conf	/^AllowedIPs = 0.0.0.0\/0$/;"	k	section:Peer
 Args	jellyfin/logging.default.json	/^                            "Args": {$/;"	o	object:Serilog.WriteTo.1.Args.configure.0
 Args	jellyfin/logging.default.json	/^                "Args": {$/;"	o	object:Serilog.WriteTo.0
 Args	jellyfin/logging.default.json	/^                "Args": {$/;"	o	object:Serilog.WriteTo.1
 AutoRun	qbittorrent/qBittorrent/qBittorrent.conf	/^[AutoRun]$/;"	s
 BitTorrent	qbittorrent/qBittorrent/qBittorrent.conf	/^[BitTorrent]$/;"	s
 Cookies	qbittorrent/qBittorrent/qBittorrent.conf	/^Cookies=@Invalid()$/;"	k	section:Network
+DNS	wg0.conf	/^DNS = 10.0.0.243,10.0.0.242$/;"	k	section:Interface
 Default	jellyfin/logging.default.json	/^            "Default": "Information",$/;"	s	object:Serilog.MinimumLevel
 DefaultSavePath	qbittorrent/qBittorrent/qBittorrent.conf	/^Session\\DefaultSavePath=\/downloads\/$/;"	k	section:BitTorrent
+Endpoint	wg0.conf	/^Endpoint = 191.101.31.33:1337$/;"	k	section:Peer
 Enrich	jellyfin/logging.default.json	/^        "Enrich": [ "FromLogContext", "WithThreadId" ]$/;"	a	object:Serilog
+Interface	wg0.conf	/^[Interface]$/;"	s
 LegalNotice	qbittorrent/qBittorrent/qBittorrent.conf	/^[LegalNotice]$/;"	s
 Meta	qbittorrent/qBittorrent/qBittorrent.conf	/^[Meta]$/;"	s
 Microsoft	jellyfin/logging.default.json	/^                "Microsoft": "Warning",$/;"	s	object:Serilog.MinimumLevel.Override
@@ -36,11 +41,14 @@ Name	jellyfin/logging.default.json	/^                "Name": "Async",$/;"	s	obje
 Name	jellyfin/logging.default.json	/^                "Name": "Console",$/;"	s	object:Serilog.WriteTo.0
 Network	qbittorrent/qBittorrent/qBittorrent.conf	/^[Network]$/;"	s
 Override	jellyfin/logging.default.json	/^            "Override": {$/;"	o	object:Serilog.MinimumLevel
+Peer	wg0.conf	/^[Peer]$/;"	s
 Port	qbittorrent/qBittorrent/qBittorrent.conf	/^Session\\Port=32499$/;"	k	section:BitTorrent
 Port	qbittorrent/qBittorrent/qBittorrent.conf	/^WebUI\\Port=8080$/;"	k	section:Preferences
 PortForwardingEnabled	qbittorrent/qBittorrent/qBittorrent.conf	/^PortForwardingEnabled=false$/;"	k	section:Network
 PortRangeMin	qbittorrent/qBittorrent/qBittorrent.conf	/^Connection\\PortRangeMin=6881$/;"	k	section:Preferences
 Preferences	qbittorrent/qBittorrent/qBittorrent.conf	/^[Preferences]$/;"	s
+PrivateKey	wg0.conf	/^PrivateKey = WG4FIa\/kHaZ8DlOxhUR1BlWfRpoVgC0hkfiMqNqK+1M=$/;"	k	section:Interface
+PublicKey	wg0.conf	/^PublicKey = Z0Lvauhe6L7tTxohRinQkWW59+FGUn9Dhbkf7FZmElA=$/;"	k	section:Peer
 QueueingSystemEnabled	qbittorrent/qBittorrent/qBittorrent.conf	/^Session\\QueueingSystemEnabled=true$/;"	k	section:BitTorrent
 SavePath	qbittorrent/qBittorrent/qBittorrent.conf	/^Downloads\\SavePath=\/downloads\/$/;"	k	section:Preferences
 Serilog	jellyfin/logging.default.json	/^    "Serilog": {$/;"	o

@@ -4330,3 +4330,558 @@
 2023-07-26 00:30:58.1|Info|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
 2023-07-26 00:30:58.1|Info|Microsoft.Hosting.Lifetime|Hosting environment: Production
 2023-07-26 00:30:58.1|Info|Microsoft.Hosting.Lifetime|Content root path: /app/radarr/bin
+2023-07-26 00:50:28.6|Info|RssSyncService|Starting RSS Sync
+2023-07-26 00:50:28.6|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2023-07-26 00:50:28.6|Info|DownloadDecisionMaker|No results found
+2023-07-26 00:50:28.7|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-07-26 00:51:59.0|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 4.6.4.7568
+2023-07-26 00:51:59.9|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-26 00:52:00.0|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-26 00:52:04.1|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-26 00:52:05.8|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-26 00:52:07.5|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-26 00:52:11.8|Info|Microsoft.Hosting.Lifetime|Now listening on: http://[::]:7878
+2023-07-26 00:52:14.5|Info|CommandExecutor|Starting 2 threads for tasks.
+2023-07-26 00:52:15.5|Info|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-07-26 00:52:15.5|Info|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2023-07-26 00:52:15.5|Info|Microsoft.Hosting.Lifetime|Content root path: /app/radarr/bin
+2023-07-26 01:50:46.4|Info|RssSyncService|Starting RSS Sync
+2023-07-26 01:50:46.4|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2023-07-26 01:50:46.4|Info|DownloadDecisionMaker|No results found
+2023-07-26 01:50:46.5|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-07-26 02:50:47.6|Info|RssSyncService|Starting RSS Sync
+2023-07-26 02:50:47.6|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2023-07-26 02:50:47.6|Info|DownloadDecisionMaker|No results found
+2023-07-26 02:50:47.6|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-07-26 03:50:48.9|Info|RssSyncService|Starting RSS Sync
+2023-07-26 03:50:48.9|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2023-07-26 03:50:48.9|Info|DownloadDecisionMaker|No results found
+2023-07-26 03:50:48.9|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-07-26 04:50:49.9|Info|RssSyncService|Starting RSS Sync
+2023-07-26 04:50:50.0|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2023-07-26 04:50:50.0|Info|DownloadDecisionMaker|No results found
+2023-07-26 04:50:50.0|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-07-26 05:50:51.5|Info|RssSyncService|Starting RSS Sync
+2023-07-26 05:50:51.5|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2023-07-26 05:50:51.5|Info|DownloadDecisionMaker|No results found
+2023-07-26 05:50:51.5|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-07-26 06:50:53.0|Info|RssSyncService|Starting RSS Sync
+2023-07-26 06:50:53.0|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2023-07-26 06:50:53.0|Info|DownloadDecisionMaker|No results found
+2023-07-26 06:50:53.0|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-07-26 07:50:54.3|Info|RssSyncService|Starting RSS Sync
+2023-07-26 07:50:54.3|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2023-07-26 07:50:54.3|Info|DownloadDecisionMaker|No results found
+2023-07-26 07:50:54.3|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-07-26 08:50:55.3|Info|RssSyncService|Starting RSS Sync
+2023-07-26 08:50:55.3|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2023-07-26 08:50:55.3|Info|DownloadDecisionMaker|No results found
+2023-07-26 08:50:55.3|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-07-26 09:50:56.6|Info|RssSyncService|Starting RSS Sync
+2023-07-26 09:50:56.6|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2023-07-26 09:50:56.6|Info|DownloadDecisionMaker|No results found
+2023-07-26 09:50:56.6|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-07-26 10:50:58.1|Info|RssSyncService|Starting RSS Sync
+2023-07-26 10:50:58.1|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2023-07-26 10:50:58.1|Info|DownloadDecisionMaker|No results found
+2023-07-26 10:50:58.1|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-07-26 11:05:40.6|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 4.6.4.7568
+2023-07-26 11:05:42.0|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-26 11:05:42.2|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-26 11:05:46.9|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-26 11:05:48.7|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-26 11:05:50.5|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-26 11:05:54.9|Info|Microsoft.Hosting.Lifetime|Now listening on: http://[::]:7878
+2023-07-26 11:05:58.3|Info|CommandExecutor|Starting 2 threads for tasks.
+2023-07-26 11:05:58.8|Info|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-07-26 11:05:58.8|Info|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2023-07-26 11:05:58.8|Info|Microsoft.Hosting.Lifetime|Content root path: /app/radarr/bin
+2023-07-26 11:51:00.1|Info|RssSyncService|Starting RSS Sync
+2023-07-26 11:51:00.2|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2023-07-26 11:51:00.2|Info|DownloadDecisionMaker|No results found
+2023-07-26 11:51:00.2|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-07-26 11:55:50.6|Info|Microsoft.Hosting.Lifetime|Application is shutting down...
+2023-07-26 11:55:50.9|Info|ConsoleApp|Exiting main.
+2023-07-26 11:56:00.7|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 4.6.4.7568
+2023-07-26 11:56:01.7|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-26 11:56:01.9|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-26 11:56:05.1|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-26 11:56:07.2|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-26 11:56:08.8|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-26 11:56:13.1|Info|Microsoft.Hosting.Lifetime|Now listening on: http://[::]:7878
+2023-07-26 11:56:15.4|Info|CommandExecutor|Starting 2 threads for tasks.
+2023-07-26 11:56:16.4|Info|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-07-26 11:56:16.4|Info|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2023-07-26 11:56:16.4|Info|Microsoft.Hosting.Lifetime|Content root path: /app/radarr/bin
+2023-07-26 12:51:17.2|Info|RssSyncService|Starting RSS Sync
+2023-07-26 12:51:17.2|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2023-07-26 12:51:17.2|Info|DownloadDecisionMaker|No results found
+2023-07-26 12:51:17.3|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-07-26 13:51:19.1|Info|RssSyncService|Starting RSS Sync
+2023-07-26 13:51:19.1|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2023-07-26 13:51:19.2|Info|DownloadDecisionMaker|No results found
+2023-07-26 13:51:19.2|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-07-26 14:51:20.0|Info|RssSyncService|Starting RSS Sync
+2023-07-26 14:51:20.0|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2023-07-26 14:51:20.0|Info|DownloadDecisionMaker|No results found
+2023-07-26 14:51:20.0|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-07-26 15:50:26.2|Error|CommandExecutor|Error occurred while executing task CheckHealth
+
+[v4.6.4.7568] System.Net.Http.HttpRequestException: Resource temporarily unavailable (radarr.servarr.com:443)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./Radarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 285
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./Radarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 271
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellation(CancellationToken cancellationToken)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse(HttpRequest request, CookieContainer cookies) in ./Radarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 101
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequest(HttpRequest request, CookieContainer cookieContainer) in ./Radarr.Common/Http/HttpClient.cs:line 141
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Radarr.Common/Http/HttpClient.cs:line 59
+   at NzbDrone.Core.HealthCheck.Checks.SystemTimeCheck.Check() in ./Radarr.Core/HealthCheck/Checks/SystemTimeCheck.cs:line 30
+   at NzbDrone.Core.HealthCheck.HealthCheckService.<>c.<PerformHealthCheck>b__15_0(IProvideHealthCheck c) in ./Radarr.Core/HealthCheck/HealthCheckService.cs:line 82
+   at System.Linq.Enumerable.SelectArrayIterator`2.ToList()
+   at NzbDrone.Core.HealthCheck.HealthCheckService.PerformHealthCheck(IProvideHealthCheck[] healthChecks, Boolean performServerChecks) in ./Radarr.Core/HealthCheck/HealthCheckService.cs:line 82
+   at NzbDrone.Core.HealthCheck.HealthCheckService.Execute(CheckHealthCommand message) in ./Radarr.Core/HealthCheck/HealthCheckService.cs:line 125
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommand[TCommand](TCommand command, CommandModel commandModel) in ./Radarr.Core/Messaging/Commands/CommandExecutor.cs:line 113
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid3[T0,T1,T2](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommands() in ./Radarr.Core/Messaging/Commands/CommandExecutor.cs:line 44
+
+
+2023-07-26 15:50:56.0|Error|CommandExecutor|Error occurred while executing task ApplicationCheckUpdate
+
+[v4.6.4.7568] System.Net.Http.HttpRequestException: Resource temporarily unavailable (radarr.servarr.com:443)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./Radarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 285
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./Radarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 271
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellation(CancellationToken cancellationToken)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse(HttpRequest request, CookieContainer cookies) in ./Radarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 101
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequest(HttpRequest request, CookieContainer cookieContainer) in ./Radarr.Common/Http/HttpClient.cs:line 141
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Radarr.Common/Http/HttpClient.cs:line 59
+   at NzbDrone.Common.Http.HttpClient.Get(HttpRequest request) in ./Radarr.Common/Http/HttpClient.cs:line 299
+   at NzbDrone.Common.Http.HttpClient.Get[T](HttpRequest request) in ./Radarr.Common/Http/HttpClient.cs:line 305
+   at NzbDrone.Core.Update.UpdatePackageProvider.GetLatestUpdate(String branch, Version currentVersion) in ./Radarr.Core/Update/UpdatePackageProvider.cs:line 53
+   at NzbDrone.Core.Update.CheckUpdateService.AvailableUpdate() in ./Radarr.Core/Update/UpdateCheckService.cs:line 25
+   at NzbDrone.Core.Update.InstallUpdateService.GetUpdatePackage(CommandTrigger updateTrigger) in ./Radarr.Core/Update/InstallUpdateService.cs:line 232
+   at NzbDrone.Core.Update.InstallUpdateService.Execute(ApplicationCheckUpdateCommand message) in ./Radarr.Core/Update/InstallUpdateService.cs:line 269
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommand[TCommand](TCommand command, CommandModel commandModel) in ./Radarr.Core/Messaging/Commands/CommandExecutor.cs:line 113
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid3[T0,T1,T2](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommands() in ./Radarr.Core/Messaging/Commands/CommandExecutor.cs:line 44
+
+
+2023-07-26 15:51:21.0|Info|RssSyncService|Starting RSS Sync
+2023-07-26 15:51:21.0|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2023-07-26 15:51:21.0|Info|DownloadDecisionMaker|No results found
+2023-07-26 15:51:21.0|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-07-26 16:51:22.1|Info|RssSyncService|Starting RSS Sync
+2023-07-26 16:51:22.1|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2023-07-26 16:51:22.1|Info|DownloadDecisionMaker|No results found
+2023-07-26 16:51:22.1|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-07-26 17:51:23.2|Info|RssSyncService|Starting RSS Sync
+2023-07-26 17:51:23.2|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2023-07-26 17:51:23.2|Info|DownloadDecisionMaker|No results found
+2023-07-26 17:51:23.2|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-07-26 18:51:24.4|Info|RssSyncService|Starting RSS Sync
+2023-07-26 18:51:24.4|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2023-07-26 18:51:24.4|Info|DownloadDecisionMaker|No results found
+2023-07-26 18:51:24.4|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-07-26 19:51:25.9|Info|RssSyncService|Starting RSS Sync
+2023-07-26 19:51:25.9|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2023-07-26 19:51:25.9|Info|DownloadDecisionMaker|No results found
+2023-07-26 19:51:25.9|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-07-26 20:51:27.2|Info|RssSyncService|Starting RSS Sync
+2023-07-26 20:51:27.2|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2023-07-26 20:51:27.2|Info|DownloadDecisionMaker|No results found
+2023-07-26 20:51:27.2|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-07-26 21:48:58.5|Info|RecycleBinProvider|Recycle Bin has not been configured, cannot cleanup.
+2023-07-26 21:48:58.7|Info|HousekeepingService|Running housecleaning tasks
+2023-07-26 21:48:59.0|Info|ImportListSyncService|No auto enabled lists, skipping sync and cleaning
+2023-07-26 21:48:59.1|Info|Database|Vacuuming Log database
+2023-07-26 21:48:59.1|Info|Database|Log database compressed
+2023-07-26 21:48:59.1|Info|Database|Vacuuming Main database
+2023-07-26 21:48:59.4|Info|Database|Main database compressed
+2023-07-26 21:49:04.3|Error|CommandExecutor|Error occurred while executing task RefreshMovie
+
+[v4.6.4.7568] System.Net.Http.HttpRequestException: Resource temporarily unavailable (api.radarr.video:443)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./Radarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 285
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./Radarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 271
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellation(CancellationToken cancellationToken)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse(HttpRequest request, CookieContainer cookies) in ./Radarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 101
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequest(HttpRequest request, CookieContainer cookieContainer) in ./Radarr.Common/Http/HttpClient.cs:line 141
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Radarr.Common/Http/HttpClient.cs:line 59
+   at NzbDrone.Common.Http.HttpClient.Get(HttpRequest request) in ./Radarr.Common/Http/HttpClient.cs:line 299
+   at NzbDrone.Common.Http.HttpClient.Get[T](HttpRequest request) in ./Radarr.Common/Http/HttpClient.cs:line 305
+   at NzbDrone.Core.MetadataSource.SkyHook.SkyHookProxy.GetChangedMovies(DateTime startTime) in ./Radarr.Core/MetadataSource/SkyHook/SkyHookProxy.cs:line 67
+   at NzbDrone.Core.Movies.RefreshMovieService.Execute(RefreshMovieCommand message) in ./Radarr.Core/Movies/RefreshMovieService.cs:line 206
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommand[TCommand](TCommand command, CommandModel commandModel) in ./Radarr.Core/Messaging/Commands/CommandExecutor.cs:line 113
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid3[T0,T1,T2](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommands() in ./Radarr.Core/Messaging/Commands/CommandExecutor.cs:line 44
+
+
+2023-07-26 21:50:34.1|Error|CommandExecutor|Error occurred while executing task CheckHealth
+
+[v4.6.4.7568] System.Net.Http.HttpRequestException: Resource temporarily unavailable (radarr.servarr.com:443)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./Radarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 285
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./Radarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 271
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellation(CancellationToken cancellationToken)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse(HttpRequest request, CookieContainer cookies) in ./Radarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 101
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequest(HttpRequest request, CookieContainer cookieContainer) in ./Radarr.Common/Http/HttpClient.cs:line 141
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Radarr.Common/Http/HttpClient.cs:line 59
+   at NzbDrone.Core.HealthCheck.Checks.SystemTimeCheck.Check() in ./Radarr.Core/HealthCheck/Checks/SystemTimeCheck.cs:line 30
+   at System.Linq.Enumerable.SelectArrayIterator`2.ToList()
+   at NzbDrone.Core.HealthCheck.HealthCheckService.PerformHealthCheck(IProvideHealthCheck[] healthChecks, Boolean performServerChecks) in ./Radarr.Core/HealthCheck/HealthCheckService.cs:line 82
+   at NzbDrone.Core.HealthCheck.HealthCheckService.Execute(CheckHealthCommand message) in ./Radarr.Core/HealthCheck/HealthCheckService.cs:line 125
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommand[TCommand](TCommand command, CommandModel commandModel) in ./Radarr.Core/Messaging/Commands/CommandExecutor.cs:line 113
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid3[T0,T1,T2](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommands() in ./Radarr.Core/Messaging/Commands/CommandExecutor.cs:line 44
+
+
+2023-07-26 21:51:04.1|Error|CommandExecutor|Error occurred while executing task ApplicationCheckUpdate
+
+[v4.6.4.7568] System.Net.Http.HttpRequestException: Resource temporarily unavailable (radarr.servarr.com:443)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./Radarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 285
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./Radarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 271
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellation(CancellationToken cancellationToken)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse(HttpRequest request, CookieContainer cookies) in ./Radarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 101
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequest(HttpRequest request, CookieContainer cookieContainer) in ./Radarr.Common/Http/HttpClient.cs:line 141
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Radarr.Common/Http/HttpClient.cs:line 59
+   at NzbDrone.Common.Http.HttpClient.Get(HttpRequest request) in ./Radarr.Common/Http/HttpClient.cs:line 299
+   at NzbDrone.Common.Http.HttpClient.Get[T](HttpRequest request) in ./Radarr.Common/Http/HttpClient.cs:line 305
+   at NzbDrone.Core.Update.UpdatePackageProvider.GetLatestUpdate(String branch, Version currentVersion) in ./Radarr.Core/Update/UpdatePackageProvider.cs:line 53
+   at NzbDrone.Core.Update.CheckUpdateService.AvailableUpdate() in ./Radarr.Core/Update/UpdateCheckService.cs:line 25
+   at NzbDrone.Core.Update.InstallUpdateService.GetUpdatePackage(CommandTrigger updateTrigger) in ./Radarr.Core/Update/InstallUpdateService.cs:line 232
+   at NzbDrone.Core.Update.InstallUpdateService.Execute(ApplicationCheckUpdateCommand message) in ./Radarr.Core/Update/InstallUpdateService.cs:line 269
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommand[TCommand](TCommand command, CommandModel commandModel) in ./Radarr.Core/Messaging/Commands/CommandExecutor.cs:line 113
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid3[T0,T1,T2](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommands() in ./Radarr.Core/Messaging/Commands/CommandExecutor.cs:line 44
+
+
+2023-07-26 21:51:29.1|Info|RssSyncService|Starting RSS Sync
+2023-07-26 21:51:29.1|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2023-07-26 21:51:29.1|Info|DownloadDecisionMaker|No results found
+2023-07-26 21:51:29.1|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-07-26 22:51:29.9|Info|RssSyncService|Starting RSS Sync
+2023-07-26 22:51:29.9|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2023-07-26 22:51:29.9|Info|DownloadDecisionMaker|No results found
+2023-07-26 22:51:29.9|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-07-26 23:51:31.0|Info|RssSyncService|Starting RSS Sync
+2023-07-26 23:51:31.1|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2023-07-26 23:51:31.1|Info|DownloadDecisionMaker|No results found
+2023-07-26 23:51:31.1|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-07-27 00:51:32.5|Info|RssSyncService|Starting RSS Sync
+2023-07-27 00:51:32.5|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2023-07-27 00:51:32.5|Info|DownloadDecisionMaker|No results found
+2023-07-27 00:51:32.5|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-07-27 01:51:33.5|Info|RssSyncService|Starting RSS Sync
+2023-07-27 01:51:33.5|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2023-07-27 01:51:33.5|Info|DownloadDecisionMaker|No results found
+2023-07-27 01:51:33.5|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-07-27 02:51:34.6|Info|RssSyncService|Starting RSS Sync
+2023-07-27 02:51:34.6|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2023-07-27 02:51:34.6|Info|DownloadDecisionMaker|No results found
+2023-07-27 02:51:34.6|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-07-27 03:50:40.6|Error|CommandExecutor|Error occurred while executing task CheckHealth
+
+[v4.6.4.7568] System.Net.Http.HttpRequestException: Resource temporarily unavailable (radarr.servarr.com:443)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./Radarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 285
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./Radarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 271
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellation(CancellationToken cancellationToken)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse(HttpRequest request, CookieContainer cookies) in ./Radarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 101
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequest(HttpRequest request, CookieContainer cookieContainer) in ./Radarr.Common/Http/HttpClient.cs:line 141
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Radarr.Common/Http/HttpClient.cs:line 59
+   at NzbDrone.Core.HealthCheck.Checks.SystemTimeCheck.Check() in ./Radarr.Core/HealthCheck/Checks/SystemTimeCheck.cs:line 30
+   at System.Linq.Enumerable.SelectArrayIterator`2.ToList()
+   at NzbDrone.Core.HealthCheck.HealthCheckService.PerformHealthCheck(IProvideHealthCheck[] healthChecks, Boolean performServerChecks) in ./Radarr.Core/HealthCheck/HealthCheckService.cs:line 82
+   at NzbDrone.Core.HealthCheck.HealthCheckService.Execute(CheckHealthCommand message) in ./Radarr.Core/HealthCheck/HealthCheckService.cs:line 125
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommand[TCommand](TCommand command, CommandModel commandModel) in ./Radarr.Core/Messaging/Commands/CommandExecutor.cs:line 113
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid3[T0,T1,T2](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommands() in ./Radarr.Core/Messaging/Commands/CommandExecutor.cs:line 44
+
+
+2023-07-27 03:51:10.6|Error|CommandExecutor|Error occurred while executing task ApplicationCheckUpdate
+
+[v4.6.4.7568] System.Net.Http.HttpRequestException: Resource temporarily unavailable (radarr.servarr.com:443)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./Radarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 285
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./Radarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 271
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellation(CancellationToken cancellationToken)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse(HttpRequest request, CookieContainer cookies) in ./Radarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 101
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequest(HttpRequest request, CookieContainer cookieContainer) in ./Radarr.Common/Http/HttpClient.cs:line 141
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Radarr.Common/Http/HttpClient.cs:line 59
+   at NzbDrone.Common.Http.HttpClient.Get(HttpRequest request) in ./Radarr.Common/Http/HttpClient.cs:line 299
+   at NzbDrone.Common.Http.HttpClient.Get[T](HttpRequest request) in ./Radarr.Common/Http/HttpClient.cs:line 305
+   at NzbDrone.Core.Update.UpdatePackageProvider.GetLatestUpdate(String branch, Version currentVersion) in ./Radarr.Core/Update/UpdatePackageProvider.cs:line 53
+   at NzbDrone.Core.Update.CheckUpdateService.AvailableUpdate() in ./Radarr.Core/Update/UpdateCheckService.cs:line 25
+   at NzbDrone.Core.Update.InstallUpdateService.GetUpdatePackage(CommandTrigger updateTrigger) in ./Radarr.Core/Update/InstallUpdateService.cs:line 232
+   at NzbDrone.Core.Update.InstallUpdateService.Execute(ApplicationCheckUpdateCommand message) in ./Radarr.Core/Update/InstallUpdateService.cs:line 269
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommand[TCommand](TCommand command, CommandModel commandModel) in ./Radarr.Core/Messaging/Commands/CommandExecutor.cs:line 113
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid3[T0,T1,T2](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommands() in ./Radarr.Core/Messaging/Commands/CommandExecutor.cs:line 44
+
+
+2023-07-27 03:51:35.6|Info|RssSyncService|Starting RSS Sync
+2023-07-27 03:51:35.6|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2023-07-27 03:51:35.6|Info|DownloadDecisionMaker|No results found
+2023-07-27 03:51:35.6|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-07-27 04:51:36.5|Info|RssSyncService|Starting RSS Sync
+2023-07-27 04:51:36.5|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2023-07-27 04:51:36.5|Info|DownloadDecisionMaker|No results found
+2023-07-27 04:51:36.5|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-07-27 05:51:37.5|Info|RssSyncService|Starting RSS Sync
+2023-07-27 05:51:37.6|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2023-07-27 05:51:37.6|Info|DownloadDecisionMaker|No results found
+2023-07-27 05:51:37.6|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-07-27 06:51:38.8|Info|RssSyncService|Starting RSS Sync
+2023-07-27 06:51:38.8|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2023-07-27 06:51:38.8|Info|DownloadDecisionMaker|No results found
+2023-07-27 06:51:38.8|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-07-27 07:51:40.1|Info|RssSyncService|Starting RSS Sync
+2023-07-27 07:51:40.1|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2023-07-27 07:51:40.1|Info|DownloadDecisionMaker|No results found
+2023-07-27 07:51:40.1|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-07-27 08:51:41.4|Info|RssSyncService|Starting RSS Sync
+2023-07-27 08:51:41.4|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2023-07-27 08:51:41.4|Info|DownloadDecisionMaker|No results found
+2023-07-27 08:51:41.4|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-07-27 09:33:29.9|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 4.6.4.7568
+2023-07-27 09:33:30.9|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-27 09:33:31.3|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-27 09:33:35.5|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-27 09:33:37.2|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-27 09:33:39.1|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-27 09:33:43.8|Info|Microsoft.Hosting.Lifetime|Now listening on: http://[::]:7878
+2023-07-27 09:33:46.8|Info|CommandExecutor|Starting 2 threads for tasks.
+2023-07-27 09:33:47.3|Info|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-07-27 09:33:47.3|Info|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2023-07-27 09:33:47.3|Info|Microsoft.Hosting.Lifetime|Content root path: /app/radarr/bin
+2023-07-27 09:51:47.8|Info|RssSyncService|Starting RSS Sync
+2023-07-27 09:51:47.8|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2023-07-27 09:51:47.8|Info|DownloadDecisionMaker|No results found
+2023-07-27 09:51:47.9|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-07-27 10:51:49.1|Info|RssSyncService|Starting RSS Sync
+2023-07-27 10:51:49.1|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2023-07-27 10:51:49.1|Info|DownloadDecisionMaker|No results found
+2023-07-27 10:51:49.1|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-07-27 11:34:04.8|Info|Microsoft.Hosting.Lifetime|Application is shutting down...
+2023-07-27 11:34:05.4|Info|ConsoleApp|Exiting main.
+2023-07-27 11:34:18.5|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 4.6.4.7568
+2023-07-27 11:34:19.5|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-27 11:34:19.7|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-27 11:34:23.0|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-27 11:34:24.4|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-27 11:34:26.6|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-27 11:34:30.8|Info|Microsoft.Hosting.Lifetime|Now listening on: http://[::]:7878
+2023-07-27 11:34:33.5|Info|CommandExecutor|Starting 2 threads for tasks.
+2023-07-27 11:34:34.0|Info|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-07-27 11:34:34.0|Info|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2023-07-27 11:34:34.0|Info|Microsoft.Hosting.Lifetime|Content root path: /app/radarr/bin
+2023-07-27 11:38:21.1|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 4.6.4.7568
+2023-07-27 11:38:22.3|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-27 11:38:22.4|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-27 11:38:26.4|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-27 11:38:28.1|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-27 11:38:29.8|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-27 11:38:34.0|Info|Microsoft.Hosting.Lifetime|Now listening on: http://[::]:7878
+2023-07-27 11:38:37.2|Info|CommandExecutor|Starting 2 threads for tasks.
+2023-07-27 11:38:37.6|Info|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-07-27 11:38:37.6|Info|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2023-07-27 11:38:37.7|Info|Microsoft.Hosting.Lifetime|Content root path: /app/radarr/bin
+2023-07-27 11:49:52.0|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 4.6.4.7568
+2023-07-27 11:49:52.9|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-27 11:49:53.0|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-27 11:49:56.9|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-27 11:49:58.6|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-27 11:50:00.4|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-27 11:50:04.6|Info|Microsoft.Hosting.Lifetime|Now listening on: http://[::]:7878
+2023-07-27 11:50:08.0|Info|CommandExecutor|Starting 2 threads for tasks.
+2023-07-27 11:50:08.7|Info|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-07-27 11:50:08.7|Info|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2023-07-27 11:50:08.7|Info|Microsoft.Hosting.Lifetime|Content root path: /app/radarr/bin
+2023-07-27 11:52:08.6|Info|RssSyncService|Starting RSS Sync
+2023-07-27 11:52:08.7|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2023-07-27 11:52:08.7|Info|DownloadDecisionMaker|No results found
+2023-07-27 11:52:08.7|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2023-07-27 12:21:07.5|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 4.6.4.7568
+2023-07-27 12:21:08.6|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-27 12:21:08.9|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-27 12:21:14.3|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-27 12:21:16.3|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-27 12:21:18.3|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-27 12:21:22.8|Info|Microsoft.Hosting.Lifetime|Now listening on: http://[::]:7878
+2023-07-27 12:21:26.0|Info|CommandExecutor|Starting 2 threads for tasks.
+2023-07-27 12:21:26.4|Info|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-07-27 12:21:26.4|Info|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2023-07-27 12:21:26.4|Info|Microsoft.Hosting.Lifetime|Content root path: /app/radarr/bin
+2023-07-27 12:35:01.9|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 4.6.4.7568
+2023-07-27 12:35:03.3|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-27 12:35:03.6|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-27 12:35:07.8|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-27 12:35:09.5|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-27 12:35:11.2|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-27 12:35:15.4|Info|Microsoft.Hosting.Lifetime|Now listening on: http://[::]:7878
+2023-07-27 12:35:18.5|Info|CommandExecutor|Starting 2 threads for tasks.
+2023-07-27 12:35:19.2|Info|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-07-27 12:35:19.2|Info|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2023-07-27 12:35:19.2|Info|Microsoft.Hosting.Lifetime|Content root path: /app/radarr/bin
+2023-07-27 12:36:01.9|Info|Microsoft.Hosting.Lifetime|Application is shutting down...
+2023-07-27 12:36:02.5|Info|ConsoleApp|Exiting main.
+2023-07-27 12:36:19.2|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 4.6.4.7568
+2023-07-27 12:36:19.9|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-27 12:36:20.0|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-27 12:36:23.2|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-27 12:36:38.1|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 4.6.4.7568
+2023-07-27 12:36:39.4|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-27 12:36:39.7|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-27 12:36:43.9|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-27 12:36:45.6|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-27 12:36:47.4|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-27 12:36:51.7|Info|Microsoft.Hosting.Lifetime|Now listening on: http://[::]:7878
+2023-07-27 12:36:55.1|Info|CommandExecutor|Starting 2 threads for tasks.
+2023-07-27 12:36:55.8|Info|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-07-27 12:36:55.8|Info|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2023-07-27 12:36:55.8|Info|Microsoft.Hosting.Lifetime|Content root path: /app/radarr/bin
+2023-07-27 12:52:25.9|Info|RssSyncService|Starting RSS Sync
+2023-07-27 12:52:25.9|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2023-07-27 12:52:26.0|Info|DownloadDecisionMaker|No results found
+2023-07-27 12:52:26.0|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0

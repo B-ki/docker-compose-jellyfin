@@ -1356,3 +1356,380 @@
 2023-07-26 00:30:58.9|Info|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
 2023-07-26 00:30:58.9|Info|Microsoft.Hosting.Lifetime|Hosting environment: Production
 2023-07-26 00:30:58.9|Info|Microsoft.Hosting.Lifetime|Content root path: /app/prowlarr/bin
+2023-07-26 00:51:59.7|Info|Bootstrap|Starting Prowlarr - /app/prowlarr/bin/Prowlarr - Version 1.6.3.3608
+2023-07-26 00:52:00.6|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-26 00:52:00.8|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-26 00:52:04.8|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-26 00:52:06.4|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-26 00:52:08.2|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-26 00:52:11.3|Info|Microsoft.Hosting.Lifetime|Now listening on: http://[::]:9696
+2023-07-26 00:52:13.1|Info|CommandExecutor|Starting 3 threads for tasks.
+2023-07-26 00:52:19.0|Info|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-07-26 00:52:19.0|Info|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2023-07-26 00:52:19.0|Info|Microsoft.Hosting.Lifetime|Content root path: /app/prowlarr/bin
+2023-07-26 11:05:42.1|Info|Bootstrap|Starting Prowlarr - /app/prowlarr/bin/Prowlarr - Version 1.6.3.3608
+2023-07-26 11:05:43.7|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-26 11:05:43.9|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-26 11:05:47.6|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-26 11:05:49.2|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-26 11:05:51.4|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-26 11:05:54.6|Info|Microsoft.Hosting.Lifetime|Now listening on: http://[::]:9696
+2023-07-26 11:05:56.6|Info|CommandExecutor|Starting 3 threads for tasks.
+2023-07-26 11:06:01.1|Info|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-07-26 11:06:01.2|Info|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2023-07-26 11:06:01.2|Info|Microsoft.Hosting.Lifetime|Content root path: /app/prowlarr/bin
+2023-07-26 11:55:50.6|Info|Microsoft.Hosting.Lifetime|Application is shutting down...
+2023-07-26 11:55:50.9|Info|ConsoleApp|Exiting main.
+2023-07-26 11:56:00.9|Info|Bootstrap|Starting Prowlarr - /app/prowlarr/bin/Prowlarr - Version 1.6.3.3608
+2023-07-26 11:56:02.2|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-26 11:56:02.3|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-26 11:56:05.3|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-26 11:56:07.5|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-26 11:56:09.3|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-26 11:56:12.0|Info|Microsoft.Hosting.Lifetime|Now listening on: http://[::]:9696
+2023-07-26 11:56:13.6|Info|CommandExecutor|Starting 3 threads for tasks.
+2023-07-26 11:56:18.9|Info|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-07-26 11:56:18.9|Info|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2023-07-26 11:56:19.0|Info|Microsoft.Hosting.Lifetime|Content root path: /app/prowlarr/bin
+2023-07-26 13:05:56.2|Info|Microsoft.Hosting.Lifetime|Application is shutting down...
+2023-07-26 13:05:56.4|Info|ConsoleApp|Exiting main.
+2023-07-26 13:06:04.5|Info|Bootstrap|Starting Prowlarr - /app/prowlarr/bin/Prowlarr - Version 1.6.3.3608
+2023-07-26 13:06:05.0|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-26 13:06:05.0|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-26 13:06:06.4|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-26 13:06:07.0|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-26 13:06:07.6|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-26 13:06:08.9|Info|Microsoft.Hosting.Lifetime|Now listening on: http://[::]:9696
+2023-07-26 13:06:09.6|Info|CommandExecutor|Starting 3 threads for tasks.
+2023-07-26 13:06:11.4|Info|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-07-26 13:06:11.5|Info|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2023-07-26 13:06:11.5|Info|Microsoft.Hosting.Lifetime|Content root path: /app/prowlarr/bin
+2023-07-26 20:19:43.3|Info|HistoryService|Removing items older than 365 days from history
+2023-07-26 20:19:43.5|Info|HousekeepingService|Running housecleaning tasks
+2023-07-26 20:19:43.6|Info|Database|Vacuuming Log database
+2023-07-26 20:19:43.6|Info|Database|Log database compressed
+2023-07-26 20:19:43.6|Info|Database|Vacuuming Main database
+2023-07-26 20:19:43.7|Info|Database|Main database compressed
+2023-07-26 20:19:48.3|Error|IndexerDefinitionUpdateService|Definition update failed
+
+[v1.6.3.3608] System.Net.Http.HttpRequestException: Resource temporarily unavailable (indexers.prowlarr.com:443)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 314
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 300
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 106
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Prowlarr.Common/Http/HttpClient.cs:line 171
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.DownloadFileAsync(String url, String fileName) in ./Prowlarr.Common/Http/HttpClient.cs:line 332
+   at NzbDrone.Common.Http.HttpClient.DownloadFileAsync(String url, String fileName) in ./Prowlarr.Common/Http/HttpClient.cs:line 338
+   at NzbDrone.Common.Http.HttpClient.DownloadFile(String url, String fileName) in ./Prowlarr.Common/Http/HttpClient.cs:line 362
+   at NzbDrone.Core.IndexerVersions.IndexerDefinitionUpdateService.UpdateLocalDefinitions() in ./Prowlarr.Core/IndexerVersions/IndexerDefinitionUpdateService.cs:line 294
+
+
+2023-07-26 20:22:18.7|Error|CommandExecutor|Error occurred while executing task CheckHealth
+
+[v1.6.3.3608] System.Net.Http.HttpRequestException: Resource temporarily unavailable (prowlarr.servarr.com:443)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 314
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 300
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 106
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Prowlarr.Common/Http/HttpClient.cs:line 171
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 137
+   at NzbDrone.Core.HealthCheck.Checks.SystemTimeCheck.Check() in ./Prowlarr.Core/HealthCheck/Checks/SystemTimeCheck.cs:line 36
+   at System.Linq.Enumerable.SelectArrayIterator`2.ToList()
+   at NzbDrone.Core.HealthCheck.HealthCheckService.PerformHealthCheck(IProvideHealthCheck[] healthChecks, Boolean performServerChecks) in ./Prowlarr.Core/HealthCheck/HealthCheckService.cs:line 82
+   at NzbDrone.Core.HealthCheck.HealthCheckService.Execute(CheckHealthCommand message) in ./Prowlarr.Core/HealthCheck/HealthCheckService.cs:line 125
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommand[TCommand](TCommand command, CommandModel commandModel) in ./Prowlarr.Core/Messaging/Commands/CommandExecutor.cs:line 117
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid3[T0,T1,T2](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommands() in ./Prowlarr.Core/Messaging/Commands/CommandExecutor.cs:line 44
+
+
+2023-07-26 20:22:23.6|Error|CommandExecutor|Error occurred while executing task ApplicationCheckUpdate
+
+[v1.6.3.3608] System.Net.Http.HttpRequestException: Resource temporarily unavailable (prowlarr.servarr.com:443)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 314
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 300
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 106
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Prowlarr.Common/Http/HttpClient.cs:line 171
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.GetAsync[T](HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 379
+   at NzbDrone.Common.Http.HttpClient.Get[T](HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 387
+   at NzbDrone.Core.Update.UpdatePackageProvider.GetLatestUpdate(String branch, Version currentVersion) in ./Prowlarr.Core/Update/UpdatePackageProvider.cs:line 58
+   at NzbDrone.Core.Update.CheckUpdateService.AvailableUpdate() in ./Prowlarr.Core/Update/UpdateCheckService.cs:line 25
+   at NzbDrone.Core.Update.InstallUpdateService.GetUpdatePackage(CommandTrigger updateTrigger) in ./Prowlarr.Core/Update/InstallUpdateService.cs:line 232
+   at NzbDrone.Core.Update.InstallUpdateService.Execute(ApplicationCheckUpdateCommand message) in ./Prowlarr.Core/Update/InstallUpdateService.cs:line 269
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommand[TCommand](TCommand command, CommandModel commandModel) in ./Prowlarr.Core/Messaging/Commands/CommandExecutor.cs:line 117
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid3[T0,T1,T2](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommands() in ./Prowlarr.Core/Messaging/Commands/CommandExecutor.cs:line 44
+
+
+2023-07-27 02:22:51.5|Error|CommandExecutor|Error occurred while executing task ApplicationCheckUpdate
+
+[v1.6.3.3608] System.Net.Http.HttpRequestException: Resource temporarily unavailable (prowlarr.servarr.com:443)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 314
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 300
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 106
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Prowlarr.Common/Http/HttpClient.cs:line 171
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.GetAsync[T](HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 379
+   at NzbDrone.Common.Http.HttpClient.Get[T](HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 387
+   at NzbDrone.Core.Update.UpdatePackageProvider.GetLatestUpdate(String branch, Version currentVersion) in ./Prowlarr.Core/Update/UpdatePackageProvider.cs:line 58
+   at NzbDrone.Core.Update.CheckUpdateService.AvailableUpdate() in ./Prowlarr.Core/Update/UpdateCheckService.cs:line 25
+   at NzbDrone.Core.Update.InstallUpdateService.GetUpdatePackage(CommandTrigger updateTrigger) in ./Prowlarr.Core/Update/InstallUpdateService.cs:line 232
+   at NzbDrone.Core.Update.InstallUpdateService.Execute(ApplicationCheckUpdateCommand message) in ./Prowlarr.Core/Update/InstallUpdateService.cs:line 269
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommand[TCommand](TCommand command, CommandModel commandModel) in ./Prowlarr.Core/Messaging/Commands/CommandExecutor.cs:line 117
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid3[T0,T1,T2](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommands() in ./Prowlarr.Core/Messaging/Commands/CommandExecutor.cs:line 44
+
+
+2023-07-27 02:22:56.9|Error|CommandExecutor|Error occurred while executing task CheckHealth
+
+[v1.6.3.3608] System.Net.Http.HttpRequestException: Resource temporarily unavailable (prowlarr.servarr.com:443)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 314
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 300
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 106
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Prowlarr.Common/Http/HttpClient.cs:line 171
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 137
+   at NzbDrone.Core.HealthCheck.Checks.SystemTimeCheck.Check() in ./Prowlarr.Core/HealthCheck/Checks/SystemTimeCheck.cs:line 36
+   at System.Linq.Enumerable.SelectArrayIterator`2.ToList()
+   at NzbDrone.Core.HealthCheck.HealthCheckService.PerformHealthCheck(IProvideHealthCheck[] healthChecks, Boolean performServerChecks) in ./Prowlarr.Core/HealthCheck/HealthCheckService.cs:line 82
+   at NzbDrone.Core.HealthCheck.HealthCheckService.Execute(CheckHealthCommand message) in ./Prowlarr.Core/HealthCheck/HealthCheckService.cs:line 125
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommand[TCommand](TCommand command, CommandModel commandModel) in ./Prowlarr.Core/Messaging/Commands/CommandExecutor.cs:line 117
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid3[T0,T1,T2](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommands() in ./Prowlarr.Core/Messaging/Commands/CommandExecutor.cs:line 44
+
+
+2023-07-27 08:23:23.9|Error|CommandExecutor|Error occurred while executing task CheckHealth
+
+[v1.6.3.3608] System.Net.Http.HttpRequestException: Resource temporarily unavailable (prowlarr.servarr.com:443)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 314
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 300
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 106
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Prowlarr.Common/Http/HttpClient.cs:line 171
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 137
+   at NzbDrone.Core.HealthCheck.Checks.SystemTimeCheck.Check() in ./Prowlarr.Core/HealthCheck/Checks/SystemTimeCheck.cs:line 36
+   at System.Linq.Enumerable.SelectArrayIterator`2.ToList()
+   at NzbDrone.Core.HealthCheck.HealthCheckService.PerformHealthCheck(IProvideHealthCheck[] healthChecks, Boolean performServerChecks) in ./Prowlarr.Core/HealthCheck/HealthCheckService.cs:line 82
+   at NzbDrone.Core.HealthCheck.HealthCheckService.Execute(CheckHealthCommand message) in ./Prowlarr.Core/HealthCheck/HealthCheckService.cs:line 125
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommand[TCommand](TCommand command, CommandModel commandModel) in ./Prowlarr.Core/Messaging/Commands/CommandExecutor.cs:line 117
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid3[T0,T1,T2](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommands() in ./Prowlarr.Core/Messaging/Commands/CommandExecutor.cs:line 44
+
+
+2023-07-27 08:23:29.0|Error|CommandExecutor|Error occurred while executing task ApplicationCheckUpdate
+
+[v1.6.3.3608] System.Net.Http.HttpRequestException: Resource temporarily unavailable (prowlarr.servarr.com:443)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 325
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 301
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 106
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Prowlarr.Common/Http/HttpClient.cs:line 171
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.GetAsync[T](HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 379
+   at NzbDrone.Common.Http.HttpClient.Get[T](HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 387
+   at NzbDrone.Core.Update.UpdatePackageProvider.GetLatestUpdate(String branch, Version currentVersion) in ./Prowlarr.Core/Update/UpdatePackageProvider.cs:line 58
+   at NzbDrone.Core.Update.CheckUpdateService.AvailableUpdate() in ./Prowlarr.Core/Update/UpdateCheckService.cs:line 25
+   at NzbDrone.Core.Update.InstallUpdateService.GetUpdatePackage(CommandTrigger updateTrigger) in ./Prowlarr.Core/Update/InstallUpdateService.cs:line 232
+   at NzbDrone.Core.Update.InstallUpdateService.Execute(ApplicationCheckUpdateCommand message) in ./Prowlarr.Core/Update/InstallUpdateService.cs:line 269
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommand[TCommand](TCommand command, CommandModel commandModel) in ./Prowlarr.Core/Messaging/Commands/CommandExecutor.cs:line 117
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid3[T0,T1,T2](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommands() in ./Prowlarr.Core/Messaging/Commands/CommandExecutor.cs:line 44
+
+
+2023-07-27 09:33:29.7|Info|Bootstrap|Starting Prowlarr - /app/prowlarr/bin/Prowlarr - Version 1.6.3.3608
+2023-07-27 09:33:30.8|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-27 09:33:31.2|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-27 09:33:35.1|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-27 09:33:36.8|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-27 09:33:38.5|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-27 09:33:41.3|Info|Microsoft.Hosting.Lifetime|Now listening on: http://[::]:9696
+2023-07-27 09:33:43.5|Info|CommandExecutor|Starting 3 threads for tasks.
+2023-07-27 09:33:48.6|Info|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-07-27 09:33:48.6|Info|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2023-07-27 09:33:48.6|Info|Microsoft.Hosting.Lifetime|Content root path: /app/prowlarr/bin
+2023-07-27 11:34:04.8|Info|Microsoft.Hosting.Lifetime|Application is shutting down...
+2023-07-27 11:34:05.4|Info|ConsoleApp|Exiting main.
+2023-07-27 11:34:18.8|Info|Bootstrap|Starting Prowlarr - /app/prowlarr/bin/Prowlarr - Version 1.6.3.3608
+2023-07-27 11:34:19.9|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-27 11:34:20.0|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-27 11:34:23.2|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-27 11:34:24.8|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-27 11:34:26.3|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-27 11:34:29.1|Info|Microsoft.Hosting.Lifetime|Now listening on: http://[::]:9696
+2023-07-27 11:34:31.2|Info|CommandExecutor|Starting 3 threads for tasks.
+2023-07-27 11:34:36.5|Info|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-07-27 11:34:36.5|Info|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2023-07-27 11:34:36.5|Info|Microsoft.Hosting.Lifetime|Content root path: /app/prowlarr/bin
+2023-07-27 11:38:18.9|Info|Bootstrap|Starting Prowlarr - /app/prowlarr/bin/Prowlarr - Version 1.6.3.3608
+2023-07-27 11:38:20.2|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-27 11:38:20.5|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-27 11:38:24.6|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-27 11:38:26.3|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-27 11:38:27.9|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-27 11:38:30.9|Info|Microsoft.Hosting.Lifetime|Now listening on: http://[::]:9696
+2023-07-27 11:38:33.2|Info|CommandExecutor|Starting 3 threads for tasks.
+2023-07-27 11:38:38.3|Info|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-07-27 11:38:38.3|Info|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2023-07-27 11:38:38.3|Info|Microsoft.Hosting.Lifetime|Content root path: /app/prowlarr/bin
+2023-07-27 11:49:52.1|Info|Bootstrap|Starting Prowlarr - /app/prowlarr/bin/Prowlarr - Version 1.6.3.3608
+2023-07-27 11:49:53.1|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-27 11:49:53.3|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-27 11:49:56.7|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-27 11:49:58.2|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-27 11:49:59.8|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-27 11:50:02.8|Info|Microsoft.Hosting.Lifetime|Now listening on: http://[::]:9696
+2023-07-27 11:50:04.7|Info|CommandExecutor|Starting 3 threads for tasks.
+2023-07-27 11:50:09.9|Info|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-07-27 11:50:09.9|Info|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2023-07-27 11:50:09.9|Info|Microsoft.Hosting.Lifetime|Content root path: /app/prowlarr/bin
+2023-07-27 12:21:09.1|Info|Bootstrap|Starting Prowlarr - /app/prowlarr/bin/Prowlarr - Version 1.6.3.3608
+2023-07-27 12:21:10.7|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-27 12:21:10.9|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-27 12:21:15.1|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-27 12:21:16.7|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-27 12:21:18.4|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-27 12:21:21.4|Info|Microsoft.Hosting.Lifetime|Now listening on: http://[::]:9696
+2023-07-27 12:21:23.6|Info|CommandExecutor|Starting 3 threads for tasks.
+2023-07-27 12:21:28.3|Info|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-07-27 12:21:28.3|Info|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2023-07-27 12:21:28.3|Info|Microsoft.Hosting.Lifetime|Content root path: /app/prowlarr/bin
+2023-07-27 12:35:01.9|Info|Bootstrap|Starting Prowlarr - /app/prowlarr/bin/Prowlarr - Version 1.6.3.3608
+2023-07-27 12:35:03.5|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-27 12:35:03.6|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-27 12:35:07.9|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-27 12:35:09.8|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-27 12:35:11.4|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-27 12:35:14.4|Info|Microsoft.Hosting.Lifetime|Now listening on: http://[::]:9696
+2023-07-27 12:35:16.9|Info|CommandExecutor|Starting 3 threads for tasks.
+2023-07-27 12:35:21.4|Info|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-07-27 12:35:21.4|Info|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2023-07-27 12:35:21.4|Info|Microsoft.Hosting.Lifetime|Content root path: /app/prowlarr/bin
+2023-07-27 12:36:01.9|Info|Microsoft.Hosting.Lifetime|Application is shutting down...
+2023-07-27 12:36:02.7|Info|ConsoleApp|Exiting main.
+2023-07-27 12:36:18.1|Info|Bootstrap|Starting Prowlarr - /app/prowlarr/bin/Prowlarr - Version 1.6.3.3608
+2023-07-27 12:36:19.1|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-27 12:36:19.3|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-27 12:36:22.5|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-27 12:36:24.2|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-27 12:36:38.8|Info|Bootstrap|Starting Prowlarr - /app/prowlarr/bin/Prowlarr - Version 1.6.3.3608
+2023-07-27 12:36:40.5|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-27 12:36:40.7|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-27 12:36:44.8|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-07-27 12:36:46.7|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-27 12:36:48.3|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-07-27 12:36:51.3|Info|Microsoft.Hosting.Lifetime|Now listening on: http://[::]:9696
+2023-07-27 12:36:53.4|Info|CommandExecutor|Starting 3 threads for tasks.
+2023-07-27 12:36:58.2|Info|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-07-27 12:36:58.2|Info|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2023-07-27 12:36:58.2|Info|Microsoft.Hosting.Lifetime|Content root path: /app/prowlarr/bin
