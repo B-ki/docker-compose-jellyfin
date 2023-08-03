@@ -2,7 +2,7 @@
 all: build up
 
 clean:
-	docker container ls -aq | xargs --no-run-if-empty docker container rm -f
+	docker container rm -f jellyfin
 
 fclean: clean
 
