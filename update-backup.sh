@@ -8,6 +8,7 @@ cd ~
 cp "$SRC_DIR"/docker-compose.yml github-bkifin/
 cp "$SRC_DIR"/Makefile github-bkifin/
 cp update-backup.sh github-bkifin/
+rm "$DEST_DIR"/Backups/*
 cp -p "`ls -dtr1 "$RADARR_BACKUP_DIR"/* | tail -1`" "$DEST_DIR"/Backups/
 
 cd github-bkifin/
