@@ -19,10 +19,11 @@ services:
     image: jellyfin/jellyfin
     container_name: jellyfin
     restart: unless-stopped
-    user: 1000:1000
+    user: ${PUID}:${PGID}
     volumes:
-      - ./jellyfin:/config
-      - /mnt/myfiles/media/:/media
+      - ${JELLYFIN_CONFIG_PATH}:/config
+      - ${JELLYFIN_CACHE_PATH}:/cache
+      - ${MEDIA_PATH}:/media
     networks: 
       - nginx-network
       - jellyfin-network
@@ -38,7 +39,7 @@ services:
       - TZ=${TIMEZONE}
     volumes:
       - ./sonarr:/config
-      - /mnt/myfiles:/data
+      - ${DATA_PATH}:/data
       - '/var/run/docker.sock:/var/run/docker.sock'
     restart: unless-stopped
     ports:
@@ -56,7 +57,7 @@ services:
       - TZ=${TIMEZONE}
     volumes:
       - ./radarr:/config
-      - /mnt/myfiles:/data
+      - ${DATA_PATH}:/data
       - '/var/run/docker.sock:/var/run/docker.sock'
     restart: unless-stopped
     ports:
@@ -86,8 +87,8 @@ services:
     image: lscr.io/linuxserver/bazarr:latest
     container_name: bazarr
     environment:
-      - PUID=1000
-      - PGID=1000
+      - PUID=${PUID}
+      - PGID=${PGID}
       - TZ=Etc/UTC
     volumes:
       - ./bazarr:/config
@@ -111,7 +112,7 @@ services:
       - WEBUI_PORT=8080
     volumes:
       - ./qbittorrent:/config
-      - ${DOWNLOAD_ROOT}:/data/torrents
+      - ${DOWNLOAD_PATH}:/data/torrents
       - '/var/run/docker.sock:/var/run/docker.sock'
     restart: unless-stopped
     ports:
@@ -128,9 +129,9 @@ services:
       - NET_RAW
     network_mode: host
     environment:
-      - PUID=1000
-      - PGID=1000
-      - TZ=Europe/Pais
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ=${TIMEZONE}
       - F2B_LOG_LEVEL=INFO
       - F2B_LOG_TARGET=STDOUT
       - F2B_DB_PURGE_AGE=365d
