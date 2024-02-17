@@ -18,7 +18,7 @@ docker stop jellyfin
 cp -R jellyfin-config/ jellyfin-config-backup/
 rm -rf jellyfin-config-backup/metadata/
 mkdir jellyfin-config-backup/metadata/
-tar -cf github-bkifin/jellyfin-config-backup.tar jellyfin-config-backup/
+tar -cf github-bkifin/Backups/jellyfin-config-backup.tar jellyfin-config-backup/
 rm -rf jellyfin-config-backup/
 
 cd ~/github-bkifin/
