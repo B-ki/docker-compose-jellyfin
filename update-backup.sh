@@ -23,7 +23,7 @@ rm -rf jellyfin-config-backup/
 docker stop nginx
 sudo tar -cf github-bkifin/Backups/npm.tar bkifin/data/ bkifin/letsencrypt/
 docker stop uptimekuma
-tar -cf github-bkifin/Backups/uptimekuma.tar bkifin/uptime-kuma/
+sudo tar -cf github-bkifin/Backups/uptimekuma.tar bkifin/uptime-kuma/
 
 cd ~/github-bkifin/
 git add .
