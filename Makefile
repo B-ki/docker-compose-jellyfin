@@ -44,4 +44,11 @@ re: clean build up
 %.down:
 	$(COMPOSE) down $*
 
+%.update:
+	$(COMPOSE) pull $*
+
+update:
+	$(COMPOSE) pull
+	$(COMPOSE) up -d
+
 .PHONY: all dir upd up stop down restart build clean ps re

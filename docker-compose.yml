@@ -92,8 +92,8 @@ services:
       - TZ=Etc/UTC
     volumes:
       - ./bazarr:/config
-      - /mnt/myfiles/media/movies:/movies
-      - /mnt/myfiles/media/tv:/tv
+      - ${MOVIE_MEDIA_PATH}:/movies
+      - ${TV_MEDIA_PATH}:/tv
       - '/var/run/docker.sock:/var/run/docker.sock'
     ports:
       - "6767:6767"

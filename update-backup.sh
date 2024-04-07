@@ -8,6 +8,7 @@ PROWLARR_BACKUP_DIR="$SRC_DIR/prowlarr/Backups/scheduled/"
 
 cd ~
 cp "$SRC_DIR"/docker-compose.yml github-bkifin/
+cp "$SRC_DIR"/env.sample github-bkifin/
 cp "$SRC_DIR"/Makefile github-bkifin/
 cp update-backup.sh github-bkifin/
 rm "$DEST_DIR"/Backups/*
@@ -24,6 +25,8 @@ docker stop nginx
 sudo tar -cf github-bkifin/Backups/npm.tar bkifin/data/ bkifin/letsencrypt/
 docker stop uptimekuma
 sudo tar -cf github-bkifin/Backups/uptimekuma.tar bkifin/uptime-kuma/
+docker stop qbittorrent
+sudo tar -cf github-bkifin/Backups/qbittorrent.tar bkifin/qbittorent/
 
 cd ~/github-bkifin/
 git add .
