@@ -39,7 +39,7 @@ re: clean build up
 	$(COMPOSE) restart $*
 
 %.clean:
-	$(COMPOSE) clean $*
+	$(COMPOSE) rm -f $*
 
 %.down:
 	$(COMPOSE) down $*
