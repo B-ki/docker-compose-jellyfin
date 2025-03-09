@@ -13,10 +13,10 @@ cp "$SRC_DIR"/env.sample "$DEST_DIR"
 cp "$SRC_DIR"/Makefile "$DEST_DIR"
 #cp update-backup.sh "$DEST_DIR"
 rm "$DEST_DIR"/Backups/*
-cp -p "`ls -dtr1 "$RADARR_BACKUP_DIR"/* | tail -1`" "$DEST_DIR"/Backups/ -y
-cp -p "`ls -dtr1 "$SONARR_BACKUP_DIR"/* | tail -1`" "$DEST_DIR"/Backups/ -y
-cp -p "`ls -dtr1 "$SONARR_ANIME_BACKUP_DIR"/* | tail -1`" "$DEST_DIR"/Backups/ -y
-cp -p "`ls -dtr1 "$PROWLARR_BACKUP_DIR"/* | tail -1`" "$DEST_DIR"/Backups/ -y
+cp -p "`ls -dtr1 "$RADARR_BACKUP_DIR"/* | tail -1`" "$DEST_DIR"/Backups/ 
+cp -p "`ls -dtr1 "$SONARR_BACKUP_DIR"/* | tail -1`" "$DEST_DIR"/Backups/ 
+cp -p "`ls -dtr1 "$SONARR_ANIME_BACKUP_DIR"/* | tail -1`" "$DEST_DIR"/Backups/ 
+cp -p "`ls -dtr1 "$PROWLARR_BACKUP_DIR"/* | tail -1`" "$DEST_DIR"/Backups/ 
 #docker stop jellyfin
 #cp -R jellyfin-config/ jellyfin-config-backup/
 #rm -rf jellyfin-config-backup/metadata/
