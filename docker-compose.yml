@@ -111,6 +111,13 @@ services:
     restart: unless-stopped
     ports:
       - "9696:9696"
+    dns:
+      - 9.9.9.9
+      - 208.67.222.222
+      - 1.1.1.1
+      - 2620:fe::9
+      - 2620:fe::10
+      - 2606:4700:4700::1111
     networks: 
       - nginx-network
       - arr-network
@@ -164,35 +171,15 @@ services:
       - PUID=${PUID}
       - PGID=${PGID}
       - TZ=${TIMEZONE}
-      - F2B_LOG_LEVEL=INFO
       - F2B_LOG_TARGET=STDOUT
+      - F2B_LOG_LEVEL=INFO
       - F2B_DB_PURGE_AGE=365d
-        # - SSMTP_HOST=smtp.example.com
-        # - SSMTP_PORT=587
-        # - SSMTP_HOSTNAME=example.com
-        # - SSMTP_USER=smtp@example.com
-        # - SSMTP_PASSWORD=
-        # - SSMTP_TLS=YES
+      - IPTABLES_MODE=auto 
     volumes:
-      - ./fail2ban/data:/data
-      - /var/log:/var/log:ro
-        # - /path/to/overseerr/log:/remotelogs/overseerr:ro #optional
-      - ./data/logs/:/log/npm/:ro
-        # - ./prowlarr/logs:/remotelogs/prowlarr:ro 
-        # - ./radarr/logs:/remotelogs/radarr:ro #optional
-        # - ./sonarr/logs:/remotelogs/sonarr:ro #optional
-      - ./jellyfin/log:/remotelogs/jellyfin:ro #optional
+      - "./fail2ban/:/data/"
+      - "./npm/logs/:/log/npm/:ro"
+      - ${JELLYFIN_CONFIG_PATH}/log:/log/jellyfin/:ro #optional
     restart: unless-stopped
-
-  uptimekuma:
-    container_name: uptimekuma
-    image: louislam/uptime-kuma:1
-    ports:
-      - 3001:3001
-    volumes:
-      - ./uptime-kuma:/app/data
-      - /var/run/docker.sock:/var/run/docker.sock
-    restart: always
 
   flaresolverr:
     container_name: flaresolverr
@@ -218,9 +205,9 @@ services:
       - SYS_MODULE
     environment:
       - WG_HOST=${SERVER_IP}
-      - PASSWORD=${WG_ADMIN_PASSWORD}
+      - PASSWORD_HASH=$$2a$$12$$c1aJzAAC.CMCRKyJGbeqaevgX39884za3Qoo8.oPtPArrNXOKotZy
     volumes:
-      - '~/.wg-easy:/etc/wireguard'
+      - '.wg-easy:/etc/wireguard'
     ports:
       - 51820:51820/udp
       - 51821:51821/tcp
@@ -231,7 +218,72 @@ services:
     networks:
       - nginx-network
 
+  loki:
+    image: grafana/loki:latest
+    container_name: loki
+    restart: unless-stopped
+    environment:
+      - PUID=${PUID}
+      - PGID=${PGID}
+    ports:
+      - "3100:3100"
+    volumes:
+    - ./loki/loki-config.yaml:/etc/loki/loki-config.yaml
+    command: -config.file=/etc/loki/local-config.yaml
+    networks:
+      - monitoring-network
 
+  promtail:
+    image: grafana/promtail:latest
+    container_name: promtail
+    restart: unless-stopped
+    environment:
+      - PUID=${PUID}
+      - PGID=${PGID}
+    volumes:
+      - ./promtail/promtail-config.yaml:/etc/promtail/config.yaml
+      - /var/log:/var/log
+      - ./sonarr/logs/:/logs/sonarr
+      - ./sonarr_anime/logs/:/logs/sonarr_anime
+      - ./radarr/logs/:/logs/radarr
+      - /home/bkipi/jellyfin-config/log:/logs/jellyfin
+    command: -config.file=/etc/promtail/config.yaml
+    networks:
+      - monitoring-network
+
+  grafana:
+    container_name: grafana
+    user: "1001:1001"
+    environment:
+      - GF_PATHS_PROVISIONING=/etc/grafana/provisioning
+      - GF_AUTH_ANONYMOUS_ENABLED=true
+      - GF_AUTH_ANONYMOUS_ORG_ROLE=Admin
+    entrypoint:
+      - sh
+      - -euc
+      - |
+        mkdir -p /etc/grafana/provisioning/datasources
+        cat <<EOF > /etc/grafana/provisioning/datasources/ds.yaml
+        apiVersion: 1
+        datasources:
+        - name: Loki
+          type: loki
+          access: proxy
+          orgId: 1
+          url: http://loki:3100
+          basicAuth: false
+          isDefault: true
+          version: 1
+          editable: false
+        EOF
+        /run.sh
+    image: grafana/grafana:latest
+    volumes:
+      - ./grafana:/var/lib/grafana
+    ports:
+      - "3000:3000"
+    networks:
+      - monitoring-network
 
 networks:
   nginx-network:
@@ -239,4 +291,6 @@ networks:
   jellyfin-network:
     driver: bridge
   arr-network:
+    driver: bridge
+  monitoring-network:
     driver: bridge

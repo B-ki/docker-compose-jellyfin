@@ -19,6 +19,8 @@ cp -p "`ls -dtr1 "$SONARR_ANIME_BACKUP_DIR"/* | tail -1`" "$DEST_DIR"/Backups/
 cp -p "`ls -dtr1 "$PROWLARR_BACKUP_DIR"/* | tail -1`" "$DEST_DIR"/Backups/
 docker stop jellyfin
 cp -R jellyfin-config/ jellyfin-config-backup/
+cp -R "$SRC_DIR"/promtail/promtail-config.yaml
+cp -R "$SRC_DIR"/loki/loki-config.yaml
 rm -rf jellyfin-config-backup/metadata/
 mkdir jellyfin-config-backup/metadata/
 tar -cf "$DEST_DIR"/Backups/jellyfin-config-backup.tar jellyfin-config-backup/

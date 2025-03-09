@@ -5,7 +5,7 @@ COMPOSE = $(DOCKER) compose
 
 all: build up
 
-ALL_DOCKERS = jellyfin radarr prowlarr sonarr qbittorrent nginx uptimekuma wg-easy flaresolverr bazarr fail2ban 
+ALL_DOCKERS = jellyfin radarr prowlarr sonarr qbittorrent nginx uptimekuma wg-easy flaresolverr bazarr fail2ban loki promtail grafana tempo 
 
 clean:
 	docker container rm -f $(ALL_DOCKERS)
