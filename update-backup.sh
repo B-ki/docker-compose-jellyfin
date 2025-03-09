@@ -17,20 +17,21 @@ cp -p "`ls -dtr1 "$RADARR_BACKUP_DIR"/* | tail -1`" "$DEST_DIR"/Backups/ -y
 cp -p "`ls -dtr1 "$SONARR_BACKUP_DIR"/* | tail -1`" "$DEST_DIR"/Backups/ -y
 cp -p "`ls -dtr1 "$SONARR_ANIME_BACKUP_DIR"/* | tail -1`" "$DEST_DIR"/Backups/ -y
 cp -p "`ls -dtr1 "$PROWLARR_BACKUP_DIR"/* | tail -1`" "$DEST_DIR"/Backups/ -y
-docker stop jellyfin
-cp -R jellyfin-config/ jellyfin-config-backup/
-cp -R "$SRC_DIR"/promtail/promtail-config.yaml "$DEST_DIR"
-cp -R "$SRC_DIR"/loki/loki-config.yaml "$DEST_DIR"
-rm -rf jellyfin-config-backup/metadata/
-mkdir jellyfin-config-backup/metadata/
-tar -cf "$DEST_DIR"/Backups/jellyfin-config-backup.tar jellyfin-config-backup/
-rm -rf jellyfin-config-backup/
+#docker stop jellyfin
+#cp -R jellyfin-config/ jellyfin-config-backup/
+#rm -rf jellyfin-config-backup/metadata/
+#mkdir jellyfin-config-backup/metadata/
+#tar -cf "$DEST_DIR"/Backups/jellyfin-config-backup.tar jellyfin-config-backup/
+#rm -rf jellyfin-config-backup/
 docker stop nginx
 sudo tar -cf "$DEST_DIR"/Backups/npm.tar bkifin/data/ bkifin/letsencrypt/
 #docker stop uptimekuma
 #sudo tar -cf "$DEST_DIR"/Backups/uptimekuma.tar bkifin/uptime-kuma/
 docker stop qbittorrent
 sudo tar -cf "$DEST_DIR"/Backups/qbittorrent.tar bkifin/qbittorrent/
+
+cp -R "$SRC_DIR"/promtail/promtail-config.yaml "$DEST_DIR"
+cp -R "$SRC_DIR"/loki/loki-config.yaml "$DEST_DIR"
 
 cd ~/"$DEST_DIR"/
 git add .

@@ -1,0 +1,56 @@
+server:
+  http_listen_port: 9080
+  grpc_listen_port: 0
+
+positions:
+  filename: /etc/promtail/positions.yaml
+
+clients:
+  - url: http://loki:3100/loki/api/v1/push
+
+scrape_configs:
+  # 🟢 System logs (optional)
+  - job_name: "syslogs"
+    static_configs:
+      - targets:
+          - localhost
+        labels:
+          job: "syslogs"
+          __path__: /var/log/*.log
+
+  # 🟢 Jellyfin logs
+  - job_name: "jellyfin"
+    static_configs:
+      - targets:
+          - localhost
+        labels:
+          job: "jellyfin"
+          __path__: /logs/jellyfin/*.log
+
+    # Radarr logs
+  - job_name: "radarr"
+    static_configs:
+      - targets:
+          - localhost
+        labels:
+          job: "radarr"
+          __path__: /logs/radarr/*.txt
+
+  # Sonarr logs
+  - job_name: "sonarr"
+    static_configs:
+      - targets:
+          - localhost
+        labels:
+          job: "sonarr"
+          __path__: /logs/sonarr/*.txt
+
+  # Sonarr Anime logs
+  - job_name: "sonarr_anime"
+    static_configs:
+      - targets:
+          - localhost
+        labels:
+          job: "sonarr_anime"
+          __path__: /logs/sonarr_anime/*.txt
+
